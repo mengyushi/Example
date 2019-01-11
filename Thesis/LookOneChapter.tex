@@ -1,0 +1,89 @@
+%*******10********20********30********40********50********60********70********80
+
+\documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+
+% Add more package in Package.tex:
+\input{Settings/Packages.tex}
+
+\input{Settings/Administrative.tex}
+
+%% ----------------------------------------------------------------
+\begin{document}
+\frontmatter
+
+%% All the pages before the chapters ------------------------------
+
+%\input{Frontpages/DeclarationPage.tex}
+
+%% The Body -------------------------------------------------------
+\setstretch{1.3}  % Return the line spacing back to 1.3
+\mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
+\pagestyle{fancy}  % Return the page headers back to the "fancy" style
+
+\input{Frontpages/Fixed/Title}
+
+% \input{Chapters/Chapter1} 
+% 
+% \input{Chapters/Chapter2} 
+% 
+% \input{Chapters/Chapter3} 
+% 
+ %\input{Chapters/Chapter3_ASR_1} 
+% 
+ %\input{Chapters/Chapter3_ASR_2} 
+% 
+ %\input{Chapters/Chapter3_ASR_3} 
+% 
+ %\input{Chapters/Chapter3_ASR_4} 
+% 
+% \input{Chapters/Chapter3_DEF_1} 
+% 
+% \input{Chapters/Chapter3_DEF_2} 
+% 
+ % \input{Chapters/Chapter3_DEF_3} 
+% 
+ \input{Chapters/Chapter3_DEF_4} 
+% 
+ \input{Chapters/Chapter3_ASRvsDEF.tex}
+ 
+% \input{Chapters/Chapter4} 
+
+ %\input{Chapters/Chapter4_ASR_1}
+
+ %\input{Chapters/Chapter4_DEF_1}
+
+ %\input{Chapters/Chapter4_end}
+ 
+% \input{Chapters/Chapter5} 
+
+
+%% Appendices -----------------------------------------------------
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+\lhead{\emph{Appendices}}  % Change the left side page header to "Appendices"
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+%\input{Appendices/ASR_A30_P25}  % Appendix Title
+%\input{Appendices/ASR_A30_P75} % Appendix Title
+%\input{Appendices/ASR_A15_P75} % Appendix Title
+%\input{Appendices/DEF_A30_X-1C} % Appendix Title
+%\input{Appendices/DEF_A30_X-5C} % Appendix Title
+%\input{Appendices/DEF_A30_X0C} % Appendix Title
+%\input{Appendices/DEF_A30_X0D} % Appendix Title
+%\input{Appendices/DEF_A15_X0C} % Appendix Title
+
+
+%% Bibliography ---------------------------------------------------
+%%\backmatter % Cue to tell LaTeX that the following 'chapters' are Bibliography
+%%\label{Bibliography}
+%%\lhead{\emph{Bibliography}}  % left side page header to "Bibliography"
+%%\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+
+%%\begingroup
+%%    \raggedright
+%%    \sloppy
+%%    \bibliography{Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
+%%\endgroup
+
+
+\end{document}  % The End
+%% ----------------------------------------------------------------
