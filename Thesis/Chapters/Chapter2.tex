@@ -167,48 +167,48 @@ $\sum_{} $(Unbalanced force of element in the model)$^2$ to \\
 $\sum_{} $(Applied force to element)$^2$ becomes less than $10^5$.
 %*******10********20********30********40********50********60********70********80
 
-\section{Constitutive Model}
+\input{Chapters/Chapter2_constitutive}
 
-\subsection{Mortar Model}
+% \subsection{Mortar Model}
+%
+% In this study, constitutive model for concrete at meso scale is developed because constitutive model at the  macro scale cannot be applied directly to meso scale analysis.
+%
+% The material characteristics of each component are presented by means of modeling spring.
+%
+% PIC Constitutive models of concrete
+%
+% In normal springs, compressive and tensile stresses ($\theta$) are developed. Shear springs develop shear stress ($\tau$). The elastic modulus of normal spring ($k_n$) and shear spring ($k_s$) are presented assuming a plane strain condition, where kn and ks are the elastic modulus of normal and shear spring, and $E_{elem}$ and $v_{elem}$ are the corrected elastic modulus and Poisson’s ratio of component at the meso scale, respectively.
+%
+% \begin{equation}
+%   \begin{aligned}
+%    &\theta_{elem} = -24.8\theta^4 + 31.9\theta^3 - 16.4\theta^2 + 4.28\theta \\
+%    &E_{elem} = (-33.7\theta_{elem}^4 + 17.0\theta_{elem}^3 - 4.13\theta^2 + 0.327\theta_{elem}+1)E
+%   \end{aligned}
+% \end{equation}
+%
+% For calculation of shear stress, a resultant value of strains generated in two shear springs is adopted as a shear strain in the constitutive model presented in this chapter.
+%
+% \begin{equation}
+%   \begin{aligned}
+%    &\varepsilon = \frac{\delta_n}{h_1+h_2} \\
+%    &\gamma = \frac{\delta_s}{h_1+h_2} \\
+%    &\sigma = k_{nsp}\varepsilon \\
+%    &\tau = k_{ssp}\gamma
+%   \end{aligned}
+% \end{equation}
+%
+% \subsection{Aggregate Model}
+%
+% In this study, the effect of the existence of aggregate in
+% concrete on the fracture process is examined. For this
+% purpose, aggregate elements are assumed to behave only
+% elastically without fracture in this study.
+%
+% The same equations as (3?), (4?), (5?) and (7?) are adopted to present the material property of aggregate.
+%
+% Pic Of AGGREGATE
 
-In this study, constitutive model for concrete at meso scale is developed because constitutive model at the  macro scale cannot be applied directly to meso scale analysis.
-
-The material characteristics of each component are presented by means of modeling spring.
-
-PIC Constitutive models of concrete
-
-In normal springs, compressive and tensile stresses ($\theta$) are developed. Shear springs develop shear stress ($\tau$). The elastic modulus of normal spring ($k_n$) and shear spring ($k_s$) are presented assuming a plane strain condition, where kn and ks are the elastic modulus of normal and shear spring, and $E_{elem}$ and $v_{elem}$ are the corrected elastic modulus and Poisson’s ratio of component at the meso scale, respectively.
-
-\begin{equation}
-  \begin{aligned}
-   &\theta_{elem} = -24.8\theta^4 + 31.9\theta^3 - 16.4\theta^2 + 4.28\theta \\
-   &E_{elem} = (-33.7\theta_{elem}^4 + 17.0\theta_{elem}^3 - 4.13\theta^2 + 0.327\theta_{elem}+1)E
-  \end{aligned}
-\end{equation}
-
-For calculation of shear stress, a resultant value of strains generated in two shear springs is adopted as a shear strain in the constitutive model presented in this chapter.
-
-\begin{equation}
-  \begin{aligned}
-   &\varepsilon = \frac{\delta_n}{h_1+h_2} \\
-   &\gamma = \frac{\delta_s}{h_1+h_2} \\
-   &\sigma = k_{nsp}\varepsilon \\
-   &\tau = k_{ssp}\gamma
-  \end{aligned}
-\end{equation}
-
-\subsection{Aggregate Model}
-
-In this study, the effect of the existence of aggregate in
-concrete on the fracture process is examined. For this
-purpose, aggregate elements are assumed to behave only
-elastically without fracture in this study.
-
-The same equations as (3?), (4?), (5?) and (7?) are adopted to present the material property of aggregate.
-
-Pic Of AGGREGATE
-
-\subsection{Expansion Model}
+\section{Expansion Model}
 
 In the expansive behavior of DEF and ASR, the expanse is caused by strains generated from within the concrete when there is no external loading.
 
@@ -237,7 +237,7 @@ Expansion is giving to simulative the behavior of model up to 1.3\% expansion(in
 
 Fig. illustration of one-dimensional expansion.
 
-\subsubsection{ASR Expansion Behavior In Simulation}
+\subsection{ASR Expansion Behavior In Simulation}
 
 For ASR expansion, the expanse is generated at the location of interfaces between mortar and aggregate. The concept of the initial strain is used here to introduce the expansion.
 
@@ -249,7 +249,7 @@ Fig P128
 
 As in the research done by L.EDDY et al. (2016), the desired characteristic map cracking pattern of ASR expansion has already achieved in this method. In this simulation, the discussion is focused on the relationship between cracking pattern with aggregate percentage, reactive aggregate, expanding ratio, also the residual mechanical properties of ASR-damaged concrete.
 
-\subsubsection{DEF Expansion Behavior In Simulation}
+\subsection{DEF Expansion Behavior In Simulation}
 
 Similar model and mechanism are also applied in the simulation of DEF  type expansion. Following the popular theory of expansion in DEF  is caused by expansion of paste, initial strain here is given to the interfaces between mortar elements to present the DEF expansion.
 
@@ -271,14 +271,6 @@ Considering the effect of temperature on triggering  DEF expansion and its chara
 The inner part of the model will be giving larger initial strain,  present the higher maximum temperature experienced, while the outer part mortar will be giving small or none initial strain.
 
 Fig illustration
-
-
-\subsection{Conclusions}
-
-In this chapter describe about the numerical simulation system that has been used in this research, RBSM. In the this study, RBSM is used to simulate the deterioration of concrete due to expansion such as expansion crack, then the mechanical properties of expanded concrete will be calculated by using RBSM.
-
-In RBSM, the response of normal spring and shear spring represent the mechanical response of mortar and aggregate member. By giving initial strain, the response of spring changed in the relatively close manner as real expanded structure. The details of simulation results from this simulation will be described again in Chapter 4.
-
 
 
 %*******10********20********30********40********50********60********70********80
@@ -500,3 +492,10 @@ fig
 In the case of free boundary condition, all boundary elements able to move freely in horizontal direction except 2 center elements in top and bottom are fixed in horizontal direction, to prevent the sliding of whole model during loading. Same as fixed boundary condition cases, displacement in vertical direction is increased by 0.02mm downward at each loading step for top boundary elements.
 
 Loading is applied until the maximum compressive strength is reached.
+
+
+\section{Conclusions}
+
+In this chapter describe about the numerical simulation system that has been used in this research, RBSM. In the this study, RBSM is used to simulate the deterioration of concrete due to expansion such as expansion crack, then the mechanical properties of expanded concrete will be calculated by using RBSM.
+
+In RBSM, the response of normal spring and shear spring represent the mechanical response of mortar and aggregate member. By giving initial strain, the response of spring changed in the relatively close manner as real expanded structure. Also the cases that will be simulated in later are introduced in this chapter. The details of simulation results from this simulation will be described again in Chapter 4.
