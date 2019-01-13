@@ -2,11 +2,11 @@
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{iii}{dummy.3}
 \vspace {1em}
-\contentsline {chapter}{List of Figures}{v}{dummy.5}
-\contentsline {chapter}{List of Tables}{vi}{dummy.7}
-\contentsline {chapter}{Abbreviations}{vii}{dummy.9}
-\contentsline {chapter}{Physical Constants}{viii}{dummy.12}
-\contentsline {chapter}{Symbols}{ix}{dummy.15}
+\contentsline {chapter}{List of Figures}{vii}{dummy.5}
+\contentsline {chapter}{List of Tables}{xi}{dummy.7}
+\contentsline {chapter}{Abbreviations}{xiii}{dummy.9}
+\contentsline {chapter}{Physical Constants}{xiv}{dummy.12}
+\contentsline {chapter}{Symbols}{xv}{dummy.15}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
 \contentsline {section}{\numberline {1.1}Background and Purpose of Research}{2}{section.19}
@@ -15,60 +15,62 @@
 \contentsline {section}{\numberline {1.4}Organization of Contents}{9}{section.33}
 \contentsline {chapter}{\numberline {2}Method of Simulation Models}{11}{chapter.34}
 \contentsline {section}{\numberline {2.1}Rigid Body Spring Model (RBSM)}{11}{section.35}
-\contentsline {section}{\numberline {2.2}Constitutive Model}{15}{section.47}
-\contentsline {subsection}{\numberline {2.2.1}Mortar Model}{15}{subsection.48}
-\contentsline {subsection}{\numberline {2.2.2}Aggregate Model}{15}{subsection.51}
-\contentsline {subsection}{\numberline {2.2.3}Expansion Model}{16}{subsection.52}
-\contentsline {subsubsection}{\numberline {2.2.3.1}ASR Expansion Behavior In Simulation}{17}{subsubsection.53}
-\contentsline {subsubsection}{\numberline {2.2.3.2}DEF Expansion Behavior In Simulation}{17}{subsubsection.54}
-\contentsline {subsection}{\numberline {2.2.4}Conclusions}{18}{subsection.55}
-\contentsline {section}{\numberline {2.3}Details of Numerical Models for ASR Simulation}{19}{section.56}
-\contentsline {subsection}{\numberline {2.3.1}Geometry of Numerical Models}{19}{subsection.57}
-\contentsline {subsection}{\numberline {2.3.2}Coarse Aggregate of Numerical Models}{19}{subsection.58}
-\contentsline {subsection}{\numberline {2.3.3}ASR Reactive Coarse Aggregate Ratio}{19}{subsection.60}
-\contentsline {subsection}{\numberline {2.3.4}Boundary Conditions}{20}{subsection.62}
-\contentsline {subsubsection}{\numberline {2.3.4.1}Boundary Condition During ASR Expansion}{20}{subsubsection.63}
-\contentsline {subsubsection}{\numberline {2.3.4.2}Boundary Conditions During Uni-axial Loading Test}{20}{subsubsection.64}
-\contentsline {subsection}{\numberline {2.3.5}Initial Strain Given For ASR Expansion}{20}{subsection.65}
-\contentsline {section}{\numberline {2.4}Details of Numerical Models for DEF Simulation}{20}{section.67}
-\contentsline {subsection}{\numberline {2.4.1}Introduction}{20}{subsection.68}
-\contentsline {subsection}{\numberline {2.4.2}Geometry of Numerical Models}{21}{subsection.69}
-\contentsline {subsection}{\numberline {2.4.3}Coarse Aggregate of Numerical Models}{21}{subsection.70}
-\contentsline {subsection}{\numberline {2.4.4}DEF Intensified Expansion Area of Numerical Models}{22}{subsection.71}
-\contentsline {subsection}{\numberline {2.4.5}Boundary Conditions}{22}{subsection.74}
-\contentsline {subsubsection}{\numberline {2.4.5.1}Boundary Condition During DEF Expansion}{22}{subsubsection.75}
-\contentsline {subsubsection}{\numberline {2.4.5.2}Boundary Conditions During Uni-axial Loading Test}{22}{subsubsection.76}
-\contentsline {chapter}{\numberline {3}Simulation of Cracking Pattern Of ASR and DEF Expanded Concrete}{24}{chapter.77}
-\contentsline {section}{\numberline {3.1}General}{24}{section.78}
-\contentsline {section}{\numberline {3.2}Cracking Pattern caused by Pure ASR Expansion}{24}{section.79}
-\contentsline {subsection}{\numberline {3.2.1}Single ASR Expansion Simulation}{24}{subsection.80}
-\contentsline {subsection}{\numberline {3.2.2}Expansion Ratio Related to Behavior of Concrete During ASR Expansion}{29}{subsection.88}
-\contentsline {subsection}{\numberline {3.2.3}Aggregate Ratio Related to Behavior of Concrete During ASR Expansion}{34}{subsection.95}
-\contentsline {subsection}{\numberline {3.2.4}Reactive Aggregate Ratio Related to Behavior of Concrete During ASR Expansion}{40}{subsection.104}
-\contentsline {section}{\numberline {3.3}Cracking Pattern caused by Pure DEF Expansion}{46}{section.113}
-\contentsline {subsection}{\numberline {3.3.1}Single DEF Expansion Simulation}{46}{subsection.114}
-\contentsline {subsection}{\numberline {3.3.2}Expansion Ratio Related to Behavior of Concrete During DEF Expansion}{51}{subsection.124}
-\contentsline {subsection}{\numberline {3.3.3}Aggregate Ratio Related to Behavior of Concrete During DEF Expansion}{57}{subsection.132}
-\contentsline {subsection}{\numberline {3.3.4}Expansion Intensified Part Range Related to Behavior of Concrete During DEF Expansion}{64}{subsection.141}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Expansion Intensified 75x75x75mm at Center of Model}{64}{subsubsection.143}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Expansion Intensified 100x100X100mm at Center of Model}{64}{subsubsection.149}
-\contentsline {section}{\numberline {3.4}Comparing Between ASR Expansion and DEF Expansion Simulation Result}{74}{section.156}
-\contentsline {chapter}{\numberline {4}Simulation of Residual Mechanical Capabilities Of ASR and DEF Expanded Concrete}{77}{chapter.161}
-\contentsline {section}{\numberline {4.1}General}{77}{section.162}
-\contentsline {subsection}{\numberline {4.1.1}Overview of Experimental Results of Residual Mechanical Properties After ASR Expansion}{79}{subsection.166}
-\contentsline {subsection}{\numberline {4.1.2}Overview of Experimental Results of Residual Mechanical Properties After DEF Expansion}{79}{subsection.167}
-\contentsline {section}{\numberline {4.2}Residual Capabilities after Pure ASR Expansion}{80}{section.168}
-\contentsline {section}{\numberline {4.3}Residual Capabilities after Pure DEF Expansion}{84}{section.177}
-\contentsline {subsection}{\numberline {4.3.1}Result And Discussion}{86}{subsection.182}
-\contentsline {section}{\numberline {4.4}Residual Capabilities after Combination of ASR and DEF Expansion}{87}{section.187}
-\contentsline {section}{\numberline {4.5}Conclusion}{87}{section.188}
-\contentsline {chapter}{\numberline {5}Summary and Conclusions}{89}{chapter.189}
+\contentsline {section}{\numberline {2.2}Constitutive Model}{15}{section.48}
+\contentsline {section}{\numberline {2.3}Expansion Model}{17}{section.53}
+\contentsline {subsection}{\numberline {2.3.1}ASR Expansion Behavior In Simulation}{19}{subsection.56}
+\contentsline {subsection}{\numberline {2.3.2}DEF Expansion Behavior In Simulation}{20}{subsection.58}
+\contentsline {section}{\numberline {2.4}Details of Numerical Models for ASR Simulation}{21}{section.62}
+\contentsline {subsection}{\numberline {2.4.1}Geometry of Numerical Models}{21}{subsection.63}
+\contentsline {subsection}{\numberline {2.4.2}Coarse Aggregate of Numerical Models}{22}{subsection.65}
+\contentsline {subsection}{\numberline {2.4.3}ASR Reactive Coarse Aggregate Ratio}{22}{subsection.67}
+\contentsline {subsection}{\numberline {2.4.4}Boundary Conditions}{23}{subsection.69}
+\contentsline {subsubsection}{\numberline {2.4.4.1}Boundary Condition During ASR Expansion}{23}{subsubsection.70}
+\contentsline {subsubsection}{\numberline {2.4.4.2}Boundary Conditions During Uni-axial Loading Test}{23}{subsubsection.71}
+\contentsline {subsection}{\numberline {2.4.5}Initial Strain Given For ASR Expansion}{23}{subsection.73}
+\contentsline {section}{\numberline {2.5}Details of Numerical Models for DEF Simulation}{24}{section.75}
+\contentsline {subsection}{\numberline {2.5.1}Introduction}{24}{subsection.76}
+\contentsline {subsection}{\numberline {2.5.2}Geometry of Numerical Models}{24}{subsection.77}
+\contentsline {subsection}{\numberline {2.5.3}Coarse Aggregate of Numerical Models}{25}{subsection.78}
+\contentsline {subsection}{\numberline {2.5.4}DEF Intensified Expansion Area of Numerical Models}{25}{subsection.79}
+\contentsline {subsection}{\numberline {2.5.5}Boundary Conditions}{26}{subsection.82}
+\contentsline {subsubsection}{\numberline {2.5.5.1}Boundary Condition During DEF Expansion}{26}{subsubsection.83}
+\contentsline {subsubsection}{\numberline {2.5.5.2}Boundary Conditions During Uni-axial Loading Test}{26}{subsubsection.84}
+\contentsline {section}{\numberline {2.6}Conclusions}{26}{section.86}
+\contentsline {chapter}{\numberline {3}Simulation of Cracking Pattern Of ASR and DEF Expanded Concrete}{28}{chapter.87}
+\contentsline {section}{\numberline {3.1}General}{28}{section.88}
+\contentsline {section}{\numberline {3.2}Cracking Pattern caused by Pure ASR Expansion}{28}{section.89}
+\contentsline {subsection}{\numberline {3.2.1}ASR Expansion Simulation of Single Aggregate Case}{28}{subsection.90}
+\contentsline {section}{\numberline {3.3}Cracking Pattern caused by Pure ASR Expansion}{32}{section.94}
+\contentsline {subsection}{\numberline {3.3.1}Single ASR Expansion Simulation}{32}{subsection.95}
+\contentsline {subsection}{\numberline {3.3.2}Expansion Ratio Related to Behavior of Concrete During ASR Expansion}{37}{subsection.103}
+\contentsline {subsection}{\numberline {3.3.3}Aggregate Ratio Related to Behavior of Concrete During ASR Expansion}{42}{subsection.110}
+\contentsline {subsection}{\numberline {3.3.4}Reactive Aggregate Ratio Related to Behavior of Concrete During ASR Expansion}{48}{subsection.119}
+\contentsline {section}{\numberline {3.4}Cracking Pattern caused by Pure DEF Expansion}{53}{section.128}
+\contentsline {subsection}{\numberline {3.4.1}DEF Expansion Simulation of Single Aggregate Case}{53}{subsection.129}
+\contentsline {section}{\numberline {3.5}Cracking Pattern caused by Pure DEF Expansion}{57}{section.133}
+\contentsline {subsection}{\numberline {3.5.1}Single DEF Expansion Simulation}{57}{subsection.134}
+\contentsline {subsection}{\numberline {3.5.2}Expansion Ratio Related to Behavior of Concrete During DEF Expansion}{62}{subsection.144}
+\contentsline {subsection}{\numberline {3.5.3}Aggregate Ratio Related to Behavior of Concrete During DEF Expansion}{68}{subsection.152}
+\contentsline {subsection}{\numberline {3.5.4}Expansion Intensified Part Range Related to Behavior of Concrete During DEF Expansion}{75}{subsection.161}
+\contentsline {subsubsection}{\numberline {3.5.4.1}Expansion Intensified 75x75x75mm at Center of Model}{75}{subsubsection.163}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Expansion Intensified 100x100X100mm at Center of Model}{75}{subsubsection.169}
+\contentsline {section}{\numberline {3.6}Comparing Between ASR Expansion and DEF Expansion Simulation Result}{85}{section.176}
+\contentsline {chapter}{\numberline {4}Simulation of Residual Mechanical Capabilities Of ASR and DEF Expanded Concrete}{88}{chapter.181}
+\contentsline {section}{\numberline {4.1}General}{88}{section.182}
+\contentsline {subsection}{\numberline {4.1.1}Overview of Experimental Results of Residual Mechanical Properties After ASR Expansion}{90}{subsection.186}
+\contentsline {subsection}{\numberline {4.1.2}Overview of Experimental Results of Residual Mechanical Properties After DEF Expansion}{90}{subsection.187}
+\contentsline {section}{\numberline {4.2}Residual Capabilities after Pure ASR Expansion}{91}{section.188}
+\contentsline {section}{\numberline {4.3}Residual Capabilities after Pure DEF Expansion}{95}{section.197}
+\contentsline {subsection}{\numberline {4.3.1}Result And Discussion}{97}{subsection.202}
+\contentsline {section}{\numberline {4.4}Residual Capabilities after Combination of ASR and DEF Expansion}{98}{section.207}
+\contentsline {section}{\numberline {4.5}Conclusion}{98}{section.208}
+\contentsline {chapter}{\numberline {5}Summary and Conclusions}{100}{chapter.209}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}ASR-A30-P25}{90}{appendix.190}
-\contentsline {chapter}{\numberline {B}ASR-A30-P75}{94}{appendix.196}
-\contentsline {chapter}{\numberline {C}ASR-A15-P75}{99}{appendix.203}
-\contentsline {chapter}{\numberline {D}DEF-A30-X-1C}{103}{appendix.208}
-\contentsline {chapter}{\numberline {E}DEF-A30-X-5C}{107}{appendix.214}
-\contentsline {chapter}{\numberline {F}DEF-A30-X0C}{111}{appendix.220}
-\contentsline {chapter}{\numberline {G}DEF-A30-X0D}{115}{appendix.226}
-\contentsline {chapter}{\numberline {H}DEF-A15-X0C}{119}{appendix.232}
+\contentsline {chapter}{\numberline {A}ASR-A30-P25}{101}{appendix.210}
+\contentsline {chapter}{\numberline {B}ASR-A30-P75}{105}{appendix.216}
+\contentsline {chapter}{\numberline {C}ASR-A15-P75}{110}{appendix.223}
+\contentsline {chapter}{\numberline {D}DEF-A30-X-1C}{114}{appendix.228}
+\contentsline {chapter}{\numberline {E}DEF-A30-X-5C}{118}{appendix.234}
+\contentsline {chapter}{\numberline {F}DEF-A30-X0C}{122}{appendix.240}
+\contentsline {chapter}{\numberline {G}DEF-A30-X0D}{126}{appendix.246}
+\contentsline {chapter}{\numberline {H}DEF-A15-X0C}{130}{appendix.252}
