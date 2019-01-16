@@ -44,6 +44,26 @@ Loading with free boundary condition is also simulated here, and presented in Fi
   \label{fig:A30P75FREE_LD}
 \end{figure}
 
+Here if plot the Residual Compressive Strength obtained from fixed boundary expansion with the one dimensional gloal expansion, it can be seen that the trend is quite close with some of the experimental results, especially the results from Swamy \& Al-Asali, 1988 (Figure \ref{A30P75_CS})\cite{Swamy}.
+
+The trend of lossing in residual compressive strength along with the increasing in expanion is well presented. Though the model used in this simulation is not identical with the experimental one, it does show similar trend in relately ratio of residential compressive strength lossing.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASRCS1.png}
+  \caption{A30 P75 Compressive Strength Comparing With Experimental Results}
+  \label{A30P75_CS_2}
+\end{figure}
+
+However, if plot the residual elastic modulus along with the increasing in expanion, shown in Figure \ref{A30P75_EM_2}, the losses in our simulation is significantly higher than experimental result. Start from very low expansion amout the simulated residual elastic modulus dropped to over 80\% losses. This implicate that the simulation and for expansion and loading in ASR still requires to be improved to represent the mechanical properties losses more percisely in reality.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASREM1.png}
+  \caption{A30 P75 Elastic Modulus Comparing With Experimental Results}
+  \label{A30P75_EM_2}
+\end{figure}
+
 % \begin{table}[ht!]
 % \centering
 % \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}|p{3cm}|p{3cm}|| }
@@ -64,9 +84,6 @@ Loading with free boundary condition is also simulated here, and presented in Fi
 % \end{table}
 
 
-%TODO: PLOT WITH EXPERIMENTAL RESULTS
-
-Here the simulated compressive strength result in fixed boundary condition is compared with experimental results summarised in the beginning of this chapter.
 
 \clearpage
 
@@ -109,4 +126,53 @@ For ASR expanded model with 15\% coarse aggregate (of which 75\% are ASR reactiv
   \label{fig:A15P75FIX_LD}
 \end{figure}
 
-%TODO: PLOT WITH EXPERIMENTAL RESULTS
+\clearpage
+
+The simulation result in residual compressive strength here is plotted, as in Figure \ref{ASR_summary}, which can be seen that in ASR simulation, the decresaing trend in compressive strength is influenced by factores such as percentage of coarse aggregate, and percentage of reactive aggregate.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASRCS_all.png}
+  \caption{ASR Compressive Strength Comparing With Experimental Results}
+  \label{ASR_CS_summary}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASREM_all.png}
+  \caption{ASR Elastic Modulus Comparing With Experimental Results}
+  \label{ASR_EM_summary}
+\end{figure}
+
+When looking at fix boundary loading, the simulation result shown in Figure \ref{ASR_CS_summary} is relatively close to some of the experimental results, as all experimental results here were loaded with fixed boundary condition.
+
+In Figure \ref{ASR_EM_summary} it can be seen that the early losses in elastic modulus is sighnificantly higher than experimental result for all cases, which indicate that further adjustment may required in material properties of expansion damaged concrete model.
+
+As shown in Figure \ref{ASRA30vsA15_cs}, if comparing 30\% coarse aggregate results(of which 75\% are ASR reactive), which are labeled as A30 P75, and 15\% coarse aggregate results(of which 75\% are ASR reactive), which are labeled as A15 P75, it can be seen that the residual compressive strength in 15\% coarse aggregate cases are relative lower than the 30\% coarse aggregate cases.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASRCS2.png}
+  \caption{ASR Compressive Strength Comparing With Experimental Results}
+  \label{ASRA30vsA15_cs}
+\end{figure}
+
+While in Figure \ref{A30P25vs75}, for the same 30\% coarse aggregate cases, if comparing 75\% ASR reactive aggregate results, which are labeled as A30 P75, and 25\% ASR reactive aggregate results, which are labeled as A30 P25, it can be seen that the residual compressive strength in 25\% ASR reactive aggregate cases are relative lower than the 75\% ASR reactive aggregate cases.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASRCS3.png}
+  \caption{ASR Compressive Strength Comparing With Experimental Results}
+  \label{A30P25vs75}
+\end{figure}
+
+These differences showing in different ASR expanding conditions implicated that the losses in mechanical properties are not only depends on the level of global expansion. In same amount of global expansion giving, the residual compressive strength can reach a difference up to around 30\%. Other factors also have impacts on concretes expanding behavior thus changing the mechanical properties of concrete. In later section, the relationship between cracking distribution in concrete model and its residual mechanical properties will be presented.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/CS_plot/ASR_free.png}
+  \caption{ASR Compressive Strength Comparing With Experimental Results}
+  \label{ASR_Free}
+\end{figure}
+
+Also, the free boundary condition is presented in Figure \ref{ASR_Free}, which shows relatively larger losses comparing to the fix boundary condition loading cases. This may due to the cracks generated from the expanding are much easier to open without restrain in the top and bottom boundary, causing larger losses in mechanical properties. However, the differences in residual compressive strength in differnt coarse aggregate percentage case are not significant in free boundary condition loading.
