@@ -8,9 +8,21 @@ In this chapter, three-dimensional expanded concrete models are tested under uni
 
 The purpose of this study is for the prediction of the behavior and residual capacity of ASR or DEF expanded concrete, especially in uni-axial compression.
 
+
+\clearpage
+\section{Uni-axial compression result for 10x10x10mm Expanded Models}
+
+\input{Chapters/Chapter4_ASRsmall}
+\clearpage
+\input{Chapters/Chapter4_DEFsmall}
+
+\clearpage
+
+\section{Uni-axial compression result for 100x100x100mm Expanded Models}
+
 Displacement of loading boundary is controlled in this analysis. In each step of loading, the top boundary of the concrete model moves downwards 0.02mm.
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
 \centering
 \includegraphics[width=.3\linewidth]{Files/Aggregate/A30.png}
   \caption{30\% Coarse Aggregate}
@@ -23,11 +35,7 @@ It can be seen that with the increasing of vertical displacement applied to the 
 
 The internal stress reaction of ASR and DEF expanded concrete model is relatively close, but the maximum Compressive Strength and Elastic Modulus does show some of the differences.
 
-And when considering free boundary condition loading, the top and bottom of the concrete model can move freely in horizontal directions, thus the X-shape cracking pattern shown in fix boundary loading cases does now show up here.
-
-%TODO: FREE Loading
-
-Figure Free Loading Internal Stress
+And when considering free boundary condition loading, shown in Figure \ref{fig:ASR_Loading_free}, the top and bottom of the concrete model can move freely in horizontal directions, thus the X-shape cracking pattern shown in fix boundary loading cases does now show up here.
 
 %A30P75FIX_3
 
@@ -62,17 +70,17 @@ Figure Free Loading Internal Stress
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS/DEP50-STEP(100).png}
-      \caption{Loading Step 100}
+      \caption{Loading Step 80}
       \end{subfigure}%
       %*******
       \begin{subfigure}{.33\textwidth}
         \centering
         \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS/DEP50-STEP(120).png}
-        \caption{Loading Step 120}
+        \caption{Loading Step 100}
       \end{subfigure}
       %*******
 
-  \caption{ASR Loading}
+  \caption{ASR Loading in Fixed Boundary Condition}
   \label{fig:ASR_Loading}
 \end{figure}
 
@@ -105,27 +113,75 @@ Figure Free Loading Internal Stress
       \includegraphics[width=1.0\linewidth]{Files/A30X-5C_3_IS/DEP50-STEP(080).png}
       \caption{Loading Step 60}
     \end{subfigure}%
+    %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=1.0\linewidth]{Files/A30X-5C_3_IS/DEP50-STEP(100).png}
+      \caption{Loading Step 80}
+    \end{subfigure}%
+    %*******
+    \begin{subfigure}{.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\linewidth]{Files/A30X-5C_3_IS/DEP50-STEP(120).png}
       \caption{Loading Step 100}
+    \end{subfigure}
+    %*******
+
+  \caption{DEF Loading in Fixed Boundary Condition}
+  \label{fig:DEF_Loading}
+\end{figure}
+
+%A30P75FIX_3
+
+\begin{figure}[ht]
+\centering
+
+    %*******
+    \begin{subfigure}{.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(020).png}
+      \caption{Before Loading}
+    \end{subfigure}%
+    \begin{subfigure}{.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(040).png}
+      \caption{Loading Step 20}
       \end{subfigure}%
       %*******
       \begin{subfigure}{.33\textwidth}
         \centering
-        \includegraphics[width=1.0\linewidth]{Files/A30X-5C_3_IS/DEP50-STEP(120).png}
-        \caption{Loading Step 120}
+        \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(060).png}
+        \caption{Loading Step 40}
       \end{subfigure}
       %*******
 
-  \caption{DEF Loading}
-  \label{fig:DEF_Loading}
+    %*******
+    \begin{subfigure}{.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(080).png}
+      \caption{Loading Step 60}
+    \end{subfigure}%
+    \begin{subfigure}{.33\textwidth}
+      \centering
+      \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(100).png}
+      \caption{Loading Step 80}
+      \end{subfigure}%
+      %*******
+      \begin{subfigure}{.33\textwidth}
+        \centering
+        \includegraphics[width=1.0\linewidth]{Files/A30P75_3_IS_Free/DEP50-STEP(120).png}
+        \caption{Loading Step 100}
+      \end{subfigure}
+      %*******
+
+  \caption{ASR Loading in Free Boundary Condition}
+  \label{fig:ASR_Loading_free}
 \end{figure}
 
 
 As for the displacement change in each step, Compressive Strength is also recorded to show the residual mechanical properties of the expanded model. Besides, Elastic Modulus will also be calculated from the plotting of the load-displacement graph.
 
-
+\clearpage
 \input{Chapters/literature/ASR_literature}
 
 \input{Chapters/literature/DEF_literature}
