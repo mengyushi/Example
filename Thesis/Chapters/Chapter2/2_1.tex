@@ -1,15 +1,15 @@
 \section{Rigid Body Spring Model (RBSM)}
 
-The simulations are carried out by the three dimensional RBSM, proposed by Kawai \textit{et al}.(1978). By using 3D RBSM, a concrete model is meshed into rigid bodies, with each consists six degree of freedoms, shown in Figure \ref{fig:RBSM}.
+The simulations are carried out by the three dimensional RBSM, proposed by Kawai et al.,1978\cite{Kawai}. By using 3D RBSM, a concrete model is meshed into rigid bodies, with each consists six degree of freedoms, shown in Figure \ref{fig:RBSM}.
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=.4\linewidth]{Files/Background/RBSM_1.png}
-  \caption{Rigid Body Spring Model}
+\includegraphics[width=.6\linewidth]{Files/Background/RBSM_1.png}
+  \caption{Rigid Body Spring Model[Kohei Nagai et al., 2005]}
   \label{fig:RBSM}
 \end{figure}
 
-These six freedoms are three transitional freedoms and three rotational freedoms at the center point within the element.
+These six freedoms are three transitional freedoms and three rotational freedoms at the center point within the element, developed by Kohei Nagai et al., 2005\cite{Nagai}.
 
 The computational point $(x_c, y_c, z_c)$ is defined as,
 
@@ -35,10 +35,9 @@ Three individual springs, which are one normal spring and two shear spring, are 
 
 Where m is the number of nodes composing the face and $x_j$, $y_j$ and $z_j$ are those coordinates.
 
-Since cracks initiate and propagate along the boundary face, the mesh arrangement may affect fracture direction. Random geometry is introduced to avoid the formation of cracks in a certain direction by using a Voronoi diagram
-\textbf{figure}.
+Since cracks initiate and propagate along the boundary face, the mesh arrangement may affect fracture direction. Random geometry is introduced to avoid the formation of cracks in a certain direction by using a Voronoi diagram.
 
-In the nonlinear analysis, a stiffness matrix is constructed based on the principle of virtual work (Kawai and Takeuchi 1990), and the Modified Newton-Raphson method is employed for the convergence algorithm.
+In the nonlinear analysis, a stiffness matrix is constructed based on the principle of virtual work (Kawai and Takeuchi 1990\cite{Kawai}), and the Modified Newton-Raphson method is employed for the convergence algorithm.
 
 When an element has small displacement $[u_1, v_1, w_1, \theta_{u1}, \theta_{v1}, \theta_{w1}]$, the springs at a face in an element will be displaced:
 

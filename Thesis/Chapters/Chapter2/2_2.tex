@@ -2,17 +2,17 @@
 
 In the expansive behavior of DEF and ASR, the expanse is caused by strains generated from within the concrete when there is no external loading.
 
-One of the similar behavior in previous research is the strength development due to autogenous shrinkage in high strength concrete, which was carried out by Osakabe et al. (2014). The concept of initial strain in RBSM has been successfully utilized in the simulation of the behavior of autogenous shrinkage in high strength concrete.
+One of the similar behavior in previous research is the strength development due to autogenous shrinkage in high strength concrete, which was carried out by Osakabe et al., (2014)\cite{Osakabe}. The concept of initial strain in RBSM has been successfully utilized in the simulation of the behavior of autogenous shrinkage in high strength concrete.
 
-The same concept of initial strain is utilized in the present of ASR and DEF expanse behavior carried out by L.EDDY et al. in 2016. Characteristic map cracking pattern in ASR simulation was presented successfully, while the DEF simulation results do not match well with the typical map cracking pattern observed in the real concrete.
+The same concept of initial strain is utilized in the present of ASR and DEF expanse behavior carried out by L.EDDY et al. in 2016\cite{Eddy}. Characteristic map cracking pattern in ASR simulation was presented successfully, while the DEF simulation results do not match well with the typical map cracking pattern observed in the real concrete.
 
 The concept of the initial strain used in this simulation is based on the case where a specimen expansion occurs without any constraint.
 
-According to  3D RBSM developed by Nagai et al. (2005), the first step is the calculation of actual force, which supposed to be calculated by solving strain, stress and force matrices of all elements in sequence based on input data and boundary condition.
+According to 3D RBSM developed by Nagai et al. (2005)\cite{Nagai}, the first step is the calculation of actual force, which supposed to be calculated by solving strain, stress and force matrices of all elements in sequence based on input data and boundary condition.
 
 Iteration is then performend until this force under the acceptable limit with an external force. When the convergence condition is reached, the same sequence will be performed for the next step.
 
-In our simulation, one additional step of introducing the initial strain is added here to simulate the behavior of expansion.  Then, Stresses due to this initial strain are calculated in the next step, with considering the initial strain added. After the stress is calculated, the initial strain added up earlier will be subtracted, before the forces are calculated.
+In our simulation, one additional step of introducing the initial strain is added here to simulate the behavior of expansion. Then, Stresses due to this initial strain are calculated in the next step, with considering the initial strain added. After the stress is calculated, the initial strain added up earlier will be subtracted, before the forces are calculated.
 
 The illustration of introducing initial strain is shown in the Figure \ref{fig:Flow}.
 
@@ -58,10 +58,9 @@ As we consider the ratio of reactive aggregate may differ the behavior of the mo
   \centering
   \includegraphics[width=0.4\linewidth]{Files/Background/EDDY_ASR.png}
   \caption{Characteristic Map Cracking Pattern of ASR bu RBSM Simulation, L.EDDY et al. (2016)}
-  \label{}
 \end{figure}
 
-As in the research done by L.EDDY et al. (2016), the desired characteristic map cracking pattern of ASR expansion has already achieved in this method. In this simulation, the discussion is focused on the relationship between cracking pattern with aggregate percentage, reactive aggregate, expanding ratio, also the residual mechanical properties of ASR-damaged concrete.
+As in the research done by L.EDDY et al. (2016)\cite{Eddy}, the desired characteristic map cracking pattern of ASR expansion has already achieved in this method. In this simulation, the discussion is focused on the relationship between cracking pattern with aggregate percentage, reactive aggregate, expanding ratio, also the residual mechanical properties of ASR-damaged concrete.
 
 \subsection{DEF Expansion Behavior In Simulation}
 
@@ -69,9 +68,9 @@ Similar model and mechanism are also applied in the simulation of DEF  type expa
 
 According to the previous study done by L.EDDY et al, simple uniformed paste expansion theory need improvement. Whether for cases giving initial strain to 100\%, 50\% or 25\% random faces of mortar chosen to expanse, the surface of expanded concrete does not match with the actual cracking pattern.
 
-It is well established that high early temperature experienced by the concrete is the most important factor inducing DEF in concrete. (Ghorab et al (1980), Ludwig(1987), Sylla(1988), Hanehara \& Oyamada(2010), Rasiah and Stephen(2014) etc.)
+It is well established that high early temperature experienced by the concrete is the most important factor inducing DEF in concrete. (Ghorab et al .,1980\cite{Ghorab}, Heinz, D et al., 1986\ref{Heinz} etc.)
 
-The research done by Anupam (2016) confirmed the rising of the temperature inside concrete due to combination effect of steam curing and heat of hydration inside the concrete is not uniform. Both the simulation result is done by Astea Macs (FEM based non-linear thermal stress analysis program developed by Research Center of Computational Mechanics, Japan) and the field measurement of temperature rising process inside concrete during steam curing in a concrete plant located in India shows the un-uniformed distribution of maximum temperature experienced. The temperature in the center of the concrete structure is significantly higher than the outer part.
+The research done by Anupam (2016)\cite{Awasthi} confirmed the rising of the temperature inside concrete due to combination effect of steam curing and heat of hydration inside the concrete is not uniform. Both the simulation result is done by Astea Macs (FEM based non-linear thermal stress analysis program developed by Research Center of Computational Mechanics, Japan) and the field measurement of temperature rising process inside concrete during steam curing in a concrete plant located in India shows the un-uniformed distribution of maximum temperature experienced. The temperature in the center of the concrete structure is significantly higher than the outer part.
 
 \begin{figure}[ht!]
 \centering
@@ -81,7 +80,7 @@ The research done by Anupam (2016) confirmed the rising of the temperature insid
 \end{figure}
 
 
-The cracking pattern in DEF damaged concrete, recorded by Anupam (2016), also suggested the possibility of non-uniformed expansion happens in DEF damaged concrete structure. The cracking concentrated in the outer part of the structure, while the inner part remained undamaged, showing the trend of larger expansion happening in the inner part of the concrete paste.
+The cracking pattern in DEF damaged concrete, recorded by Anupam (2016)\cite{Awasthi}, also suggested the possibility of non-uniformed expansion happens in DEF damaged concrete structure. The cracking concentrated in the outer part of the structure, while the inner part remained undamaged, showing the trend of larger expansion happening in the inner part of the concrete paste.
 
 \begin{figure}[ht!]
 \centering

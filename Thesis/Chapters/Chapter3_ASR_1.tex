@@ -13,20 +13,16 @@ In this section, the process of simulated one ASR expansion is present. The expa
 
 For usually the case not all aggregate inside concrete structure are ASR reactive aggregate, here only partial of aggregates are selected to be ASR reactive and will be givin initial strain in expansion steps to simulate ASR expansion.
 
-This single example case has been choosing here use the model in the dimension of 100x100x100mm, with 30\% aggregate, of which 75\% are ASR reactive. Aggregate in Figure \ref{fig:A30_model} in red color is assumed as ASR reactive, while aggregate in blue color is assumed as non-reactive aggregate.
+This single example case has been choosing here use the model in the dimension of 100x100x100mm, with 30\% aggregate, of which 75\% are ASR reactive. Aggregate in Figure \ref{fig:A30_modelll} in red color is assumed as ASR reactive, while aggregate in blue color is assumed as non-reactive aggregate.
 
   \begin{figure}[ht!]
   \centering
   \includegraphics[width=.3\linewidth]{Files/Aggregate/A30P75.png}
     \caption{30\% Coarse Aggregate}
-    \label{fig:A30_model}
+    \label{fig:A30_modelll}
   \end{figure}
 
-Table. Aggregate consistent(if we have it)
-
-To simulate ASR expansion, an initial strain of 0.001mm is given in each step, for totally 20 steps expansion. Before and after expansion, the distance of element between 2 elements is recorded to gauge the gloal expansion. These two element selected here are the middle element in the left surface of model and the middle element in the left surface of model.
-
-% TODO: A30 illustration d between 113942 116197
+To simulate ASR expansion, an initial strain of 0.001 is given in each step, for totally 20 steps expansion. Before and after expansion, the distance of element between 2 elements is recorded to gauge the gloal expansion. These two element selected here are the middle element in the left surface of model and the middle element in the left surface of model, as introduced in chapter 2.
 
 %*******10********20********30********40********50********60********70********80
 
@@ -65,7 +61,7 @@ To simulate ASR expansion, an initial strain of 0.001mm is given in each step, f
 
 With the increasing of initial strain giving, the global expansion also gradually increasing. After 20 steps of ASR expansion, the model here reached 0.4223\% expansion(one-dimensionally). Characteristic ASR map cracking pattern can be seen on the surface of the expanded concrete model in Figure \ref{fig:ASR_A30P75_3_3D_1}.
 
-Here the surface cracking from experimental result, done by ALKANA in 2013, is shown in Figure \ref{ALKANASRcrack}, in shape of 100x100x400mm, with 0.10 percent one-dimensional expansion. It can be seen that in Figure \ref{fig:ASR_A30P75_3_3D_1}, similar map cracking is represented.
+Here the surface cracking from experimental result, done by ALKANA in 2013, is shown in Figure \ref{ALKANASRcrack}, by ALKANA(2013)\cite{ALKANA}, in shape of 100x100x400mm, with 0.10 percent one-dimensional expansion, for comparing. It can be seen that in Figure \ref{fig:ASR_A30P75_3_3D_1}, similar map cracking is represented.
 
   \begin{figure}[ht!]
   \centering
