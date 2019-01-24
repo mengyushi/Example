@@ -13,7 +13,7 @@ In this section, the process of simulated one ASR expansion is present. The expa
 
 For usually the case not all aggregate inside concrete structure are ASR reactive aggregate, here only partial of aggregates are selected to be ASR reactive and will be givin initial strain in expansion steps to simulate ASR expansion.
 
-This single example case has been choosing here use the model in the dimension of 100x100x100mm, with 30\% aggregate, of which 75\% are ASR reactive. Aggregate in Figure \ref{fig:A30_modelll} in red color is assumed as ASR reactive, while aggregate in blue color is assumed as non-reactive aggregate.
+This single example case has been choosing here use the model in the dimension of $100 \times 100 \times 100$ mm, with 30\% aggregate, of which 75\% are ASR reactive. Aggregate in Figure \ref{fig:A30_modelll} in red color is assumed as ASR reactive, while aggregate in blue color is assumed as non-reactive aggregate.
 
   \begin{figure}[ht!]
   \centering
@@ -22,53 +22,75 @@ This single example case has been choosing here use the model in the dimension o
     \label{fig:A30_modelll}
   \end{figure}
 
-To simulate ASR expansion, an initial strain of 0.001 is given in each step, for totally 20 steps expansion. Before and after expansion, the distance of element between 2 elements is recorded to gauge the gloal expansion. These two element selected here are the middle element in the left surface of model and the middle element in the left surface of model, as introduced in chapter 2.
+To simulate ASR expansion, an initial strain of 0.001 is given in each step, for totally 20 steps expansion. Before and after expansion, the distance of element between 2 elements is recorded to gauge the gloal expansion. These two element selected here are the middle element in the left surface of model and the middle element in the left surface of model, as introduced in chapter 2. In this model with size $100 \times 100 \times 100$ mm and 30\% coarse aggregate, element numbered as 113942 and 116197 are selected to gauge the expansion in expanding process (Figure \ref{exp_illstration}). Before and in each step of the expansion, distant between the center of 113942 and 116197 are recorded, and expansion in one-dimensional is calculated using the following equation:
+
+
+\begin{equation}
+  exp = \frac{d-d_0}{d_0}
+\end{equation}
+
+
+Where $d_0$ is the distant between the center of element 113942 and 116197, and $d$ is the distant between the center of element 113942 and 116197 after expansion. In this example, the distant between two selected element before expansion, $d_0$, is 98.37 mm. Distant and expansion in each step is shown in Tabel \ref{table:A30P75_3_EXPs} and Figure \ref{fig:ASRA30P75_3_exp1}.
+
+\begin{figure}[!h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1.0\linewidth]{Files/Method/exp2D.png}
+  \caption{Illstration for Element 113942 and 116197 in Cross Section View}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1.0\linewidth]{Files/Method/exp3D.png}
+  \caption{Seleted Cross Section in 3D view}
+\end{subfigure}
+\caption{Illstration for Calculation of Expansion in one-dimensional}
+\label{exp_illstration}
+\end{figure}
+
+
 
 %*******10********20********30********40********50********60********70********80
 
 % illustration of A30P75 ASR C D0 A0.001 S20 Expansion
 
   \begin{table}[ht]
+      \caption{Expansion in Each Step for A30 P75 Case 3 ($d_0$ = 98.37 mm)}
   \centering
-  \begin{tabular}{ ||p{3cm}|p{3cm}||p{3cm}|p{3cm}|| }
+  \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}||p{2cm}|p{2cm}|p{2cm}|| }
   \hline
-   Step &  Expansion & Step & Expansion \\
+   Step & d[mm] & Expansion & Step & d[mm] & Expansion \\
    \hline\hline
-    1 & 0.000136  & 11 & 0.002140 \\
-    2 & 0.000314  & 12 & 0.002358 \\
-    3 & 0.000501  & 13 & 0.002582 \\
-    4 & 0.000695  & 14 & 0.002812 \\
-    5 & 0.000894  & 15 & 0.003049 \\
-    6 & 0.001096  & 16 & 0.003278 \\
-    7 & 0.001301  & 17 & 0.003536 \\
-    8 & 0.001507  & 18 & 0.003767 \\
-    9 & 0.001715  & 19 & 0.003989 \\
-    10 & 0.001924  & 20  & 0.004223 \\
+    1 & 98.400 & 0.000136  & 11 & 98.597 & 0.002140 \\
+    2 & 98.417 & 0.000314  & 12 & 98.618 & 0.002358 \\
+    3 & 98.436 & 0.000501  & 13 & 98.640 & 0.002582 \\
+    4 & 98.455 & 0.000695  & 14 & 98.663 & 0.002812 \\
+    5 & 98.474 & 0.000894  & 15 & 98.686 & 0.003049 \\
+    6 & 98.494 & 0.001096  & 16 & 98.709 & 0.003278 \\
+    7 & 98.514 & 0.001301  & 17 & 98.734 & 0.003536 \\
+    8 & 98.535 & 0.001507  & 18 & 98.757 & 0.003767 \\
+    9 & 98.555 & 0.001715  & 19 & 98.779 & 0.003989 \\
+    10 & 98.576 & 0.001924  & 20  & 98.802 & 0.004223 \\
     \hline
     \end{tabular}
-  \caption{Expansion in Each Step for A30 P75 Case 3}
-  \label{table:A30P75_3_EXP}
+
+  \label{table:A30P75_3_EXPs}
   \end{table}
 
   \begin{figure}[ht!]
   \centering
   \includegraphics[width=.8\linewidth]{Files/exp_plot/ASRA30P75_3_exp.png}
     \caption{Global Expansion vs. Step}
-    \label{fig:ASRA30P75_3_exp}
+    \label{fig:ASRA30P75_3_exp1}
   \end{figure}
 
 %*******10********20********30********40********50********60********70********80
+\clearpage
 
 With the increasing of initial strain giving, the global expansion also gradually increasing. After 20 steps of ASR expansion, the model here reached 0.4223\% expansion(one-dimensionally). Characteristic ASR map cracking pattern can be seen on the surface of the expanded concrete model in Figure \ref{fig:ASR_A30P75_3_3D_1}.
 
-Here the surface cracking from experimental result, done by ALKANA in 2013, is shown in Figure \ref{ALKANASRcrack}, by ALKANA(2013)\cite{ALKANA}, in shape of 100x100x400mm, with 0.10 percent one-dimensional expansion, for comparing. It can be seen that in Figure \ref{fig:ASR_A30P75_3_3D_1}, similar map cracking is represented.
+Here the surface cracking from experimental result, done by ALKANA in 2013, is shown in Figure \ref{ALKANASRcrack}, by ALKANA(2013)\cite{ALKANA}, in shape of $100 \times 100 \times 400$ mm, with 0.10 percent one-dimensional expansion, for comparing. It can be seen that in Figure \ref{fig:ASR_A30P75_3_3D_1}, similar map cracking is represented.
 
-  \begin{figure}[ht!]
-  \centering
-  \includegraphics[width=.8\linewidth]{Reference/ALKANASRcrack.png}
-    \caption{Prismatic specimens of G-C, G-A, and G-B concretes respectively[ALKANA, 2012]}
-    \label{ALKANASRcrack}
-  \end{figure}
 
 
 % ASRA30P75_3 Surface Cracking
@@ -84,8 +106,16 @@ Here the surface cracking from experimental result, done by ALKANA in 2013, is s
         \includegraphics[width=.8\linewidth]{Files/exp_3D/ASR/A30P75_3_3ds.png}
         \end{subfigure}
         %*******
-    \caption{3D Surface Cracks, 0.4223\% Expansion (Deformation x 10)}
+    \caption{3D Surface Cracks, 0.4223\% Expansion ($Deformation \times 10$)}
     \label{fig:ASR_A30P75_3_3D_1}
+  \end{figure}
+
+
+  \begin{figure}[ht!]
+    \centering
+    \includegraphics[width=.8\linewidth]{Reference/ALKANASRcrack.png}
+      \caption{Prismatic specimens of G-C, G-A, and G-B concretes respectively[ALKANA, 2012]}
+      \label{ALKANASRcrack}
   \end{figure}
 
 % Internal Stress for step 1-20 ASR_A30_P75_3
@@ -223,24 +253,27 @@ Here the surface cracking from experimental result, done by ALKANA in 2013, is s
 
       \input{Chapters/tagCS10}
 
-  \caption{Internal Stress in Each Step for A30 P75 Case 3 (Deformation x 10)}
+  \caption{Internal Stress in Each Step for A30 P75 Case 3 ($Deformation \times 10$)}
   \label{fig:ASR_A30P75_3_IS}
   \end{figure}
+
+\clearpage
 
 As can be seen in Figure \ref{fig:ASR_A30P75_3_IS} the internal stress from step 1 to 20, along with the increasing of giving initial strain, unbalanced force present in the concrete model, compressive stress (in red color) generated and distributed especially in coarse aggregates. Gradually crack generated around the aggregate, penetrated and finally linked between aggregates and reached surface of the model.
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.5\linewidth]{Files/exp_3D/ASR/A30P75_3_c.png}
-  \caption{3D Inner Cracking larger than 0.03mm}
+  \caption{3D Inner Cracking larger than 0.03 mm}
   \label{fig:A30P75_3_crack}
 \end{figure}
 
-In Figure \ref{fig:A30P75_3_crack} shows the inner crack distribution right after 20 steps of ASR expansion. The cracked interfaced which larger than 0.03mm are colored in orange, to present the distribution of internal crack three dimensionally. With 0.4223\% of one dimensional global expansion, cracks over 0.03mm are distributed relatively uniformed inside the model.
+In Figure \ref{fig:A30P75_3_crack} shows the inner crack distribution right after 20 steps of ASR expansion. The cracked interfaced which larger than 0.03 mm are colored in orange, to present the distribution of internal crack three dimensionally. With 0.4223\% of one dimensional global expansion, cracks over 0.03 mm are distributed relatively uniformed inside the model. It can be seen that the cracks are distributed relatively uninformed in the expanded model, which is co-insistent with the condition shown in the 2D inner section.
 
-For analyzing the behavior of expansion caused by ASR numerically, cracked interfaces are summarised in different crack width scale, shown in Table \ref{table:A30P75_3_Cracks} and Figure \ref{A30P75CR_3}. The maximum crack width, in this case, is in range of 0.01-0.03mm, while most of the cracks are under 0.001mm. The ability of RBSM simulation in numerically analysis distribution of cracked interfaces gives us information that with difficulties to obtain in experimental tests. These numbers will be compared with simulations given different global expansion ratio, different aggregate consistent, even different mechanism.
+For analyzing the behavior of expansion caused by ASR numerically, cracked interfaces are summarised in different crack width scale, shown in Table \ref{table:A30P75_3_Crackls} and Figure \ref{A30P75CR_3}. The maximum crack width, in this case, is in range of 0.01-0.03 mm, while most of the cracks are under 0.001 mm. The ability of RBSM simulation in numerically analysis distribution of cracked interfaces gives us information that with difficulties to obtain in experimental tests. These numbers will be compared with simulations given different global expansion ratio, different aggregate consistent, even different mechanism.
 
 \begin{table}[!h]
+  \caption{Crack Summarised by width}
 \centering
 \begin{tabular}{ |p{4cm}|p{5cm}| }
 \hline
@@ -260,15 +293,13 @@ For analyzing the behavior of expansion caused by ASR numerically, cracked inter
 
   \hline
   \end{tabular}
-\caption{Crack Summarised by width}
-\label{table:A30P75_3_Cracks}
+
+\label{table:A30P75_3_Crackls}
 \end{table}
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.8\linewidth]{Files/interface/A30P75_3.png}
-  \caption{Number of Cracked Interface vs. Expansion}
+  \caption{Number of Cracked Interface vs. Expansion[\%]}
   \label{A30P75CR_3}
 \end{figure}
-
-In Figure \ref{fig:A30P75_3_crack}, inner cracking interfaces with over 0.03mm are colored in orange. From this illustration, it can be seen that the cracks are distributed relatively uninformed in the expanded model, which is co-insistent with the condition shown in the 2D inner section.

@@ -1,3 +1,4 @@
+\clearpage
 \section{Details of Numerical Models for DEF Simulation}
 
 \subsection{Introduction}
@@ -6,13 +7,13 @@ The exactly same model is used for DEF simulation in order to cross compare the 
 
 \subsection{Geometry of Numerical Models}
 
-The geometry of the models is exactly the same as models using in ASR simulation, which is in dimension of 100 x 100 x 100mm.
+The geometry of the models is exactly the same as models using in ASR simulation, which is in dimension of $100 \times 100 \times 100$ mm.
 
 All materials properties are set to be exactly the same.
 
 \subsection{Coarse Aggregate of Numerical Models}
 
-To analysis the behavior of concrete with different coarse aggregate volume ratio, 15\% coarse aggregate model (Figure \ref{fig:A15_model1}) and 30\% coarse aggregate model (Figure \ref{fig:A30_model1}) are built for simulation.
+To analysis the behavior of concrete with different coarse aggregate volume ratio, 15\% coarse aggregate model and 30\% coarse aggregate model (Figure \ref{skjdfhlk}) are built for simulation.
 
 \begin{figure}[!h]
 \centering
@@ -20,35 +21,37 @@ To analysis the behavior of concrete with different coarse aggregate volume rati
   \centering
   \includegraphics[width=.6\linewidth]{Files/Aggregate/A15.png}
   \caption{15\% Coarse Aggregate}
-  \label{fig:A15_model1}
+
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.6\linewidth]{Files/Aggregate/A30.png}
   \caption{30\% Coarse Aggregate}
-  \label{fig:A30_model1}
 \end{subfigure}
+
 \caption{Coarse Aggregate Percentage}
+\label{skjdfhlk}
 \end{figure}
 
 \subsection{DEF Intensified Expansion Area of Numerical Models}
 
 Since DEF is closely related to higher curing temperature, here we choose to intensified the expansion in center part of model.
 
-Here we chooses 3 cases in different expansion intensified area. The \textbf{table \ref{table:DEF_X}} is a list of cases simulated.
+Here we chooses 3 cases in different expansion intensified area. The Table \ref{table:DEF_X} is a list of cases simulated, illustration is presented in Figure \ref{fig:DEFffff_X}.
 
 \begin{table}[ht!]
+  \caption{DEF Intensified Expansion Area}
 \centering
 \begin{tabular}{||c c c||}
  \hline
  Case &  Expansion Intensified Depth[mm] &  Expansion Intensified Zone \\ [0.5ex]
  \hline\hline
- 1 & 0 & 100x100x100mm \\
- 2 & 12.5 & 75x75x75mm \\
- 3 & 25 & 50x50x50mm \\ [0.5ex]
+ 1 & 0 & $100 \times 100 \times 100$ mm \\
+ 2 & 12.5 & $75 \times 75 \times 75$ mm \\
+ 3 & 25 & $50 \times 50 \times 50$ mm \\ [0.5ex]
  \hline
 \end{tabular}
-\caption{DEF Intensified Expansion Area}
+
 \label{table:DEF_X}
 \end{table}
 
@@ -58,42 +61,42 @@ Here we chooses 3 cases in different expansion intensified area. The \textbf{tab
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3d.png}
-      \caption{Intensified  \\ 50x50x50mm Case}
+      \caption{Intensified  \\ $50 \times 50 \times 50$ mm Case}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-5_3d.png}
-      \caption{Intensified  \\ 75x75x75mm Case}
+      \caption{Intensified  \\ $75 \times 75 \times 75$ mm Case}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-1_3d.png}
-      \caption{Intensified  \\ 100x100x100mm Case}
+      \caption{Intensified  \\ $100 \times 100 \times 100$ mm Case}
     \end{subfigure}
     %*******
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3ds.png}
-      \caption{Intensified  \\ 50x50x50mm Case\\ Cross Section}
+      \caption{Intensified  \\ $50 \times 50 \times 50$ mm Case\\ Cross Section}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-5_3ds.png}
-      \caption{Intensified \\  75x75x75mm Case \\ Cross Section}
+      \caption{Intensified \\  $75 \times 75 \times 75$ mm Case \\ Cross Section}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.9\linewidth]{Files/DEF_X/X-1_3ds.png}
-      \caption{Intensified  \\ 100x100x100mm Case\\ Cross Section}
+      \caption{Intensified  \\ $100 \times 100 \times 100$ mm Case\\ Cross Section}
     \end{subfigure}
     %*******
   \caption{DEF intensified part range}
-  \label{fig:DEF_X}
+  \label{fig:DEFffff_X}
 \end{figure}
 
 \subsection{Boundary Conditions}
@@ -104,17 +107,17 @@ Same as in ASR expansion, during DEF expansion, no confinements are added to the
 
 \subsubsection{Boundary Conditions During Uni-axial Loading Test}
 
-Same as in ASR expansion, Uni-axial Loading Test is applied with both fixed and free boundary conditions.
+Same as in ASR expansion, Uni-axial Loading Test is applied with both fixed and free boundary conditions(Figure \ref{boundaaary}).
 
 \begin{figure}[h!]
   \centering
   \includegraphics{Files/Background/LOAD.png}
   \caption{Top and Bottom Boundary in Loading}
-  \label{boundary}
+  \label{boundaaary}
 \end{figure}
 
-In the case of fixed boundary condition, displacement in all directions are assumed as 0 at the bottom. Displacement in horizontal directions are all assumed as 0 at the top, and displacement in vertical direction is increased by 0.02mm downward at each loading step.
+In the case of fixed boundary condition, displacement in all directions are assumed as 0 at the bottom. Displacement in horizontal directions are all assumed as 0 at the top, and displacement in vertical direction is increased by 0.02 mm downward at each loading step.
 
-In the case of free boundary condition, all boundary elements able to move freely in horizontal direction except 2 center elements in top and bottom are fixed in horizontal direction, to prevent the sliding of whole model during loading. Same as fixed boundary condition cases, displacement in vertical direction is increased by 0.02mm downward at each loading step for top boundary elements.
+In the case of free boundary condition, all boundary elements able to move freely in horizontal direction except 2 center elements in top and bottom are fixed in horizontal direction, to prevent the sliding of whole model during loading. Same as fixed boundary condition cases, displacement in vertical direction is increased by 0.02 mm downward at each loading step for top boundary elements.
 
 Loading is applied until the maximum compressive strength is reached.

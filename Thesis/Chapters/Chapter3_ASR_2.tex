@@ -4,17 +4,21 @@
 
 In this section, the relationship between given initial strain, final expansion and behavior during expansion is discussed.
 
-Model in size of 100x100x100mm is in used, with 30\% Aggregate (75\% of which is ASR reactive).
+Model in size of $100 \times 100 \times 100$ mm is in used (Figure \ref{ASRRRR}), with 30\% Aggregate (75\% of which is ASR reactive).
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.3\linewidth]{Files/Aggregate/A30P75.png}
   \caption{30\% Coarse Aggregate}
+  \label{ASRRRR}
 \end{figure}
 
-Expansion is carried out with initial strain given in each step various from 0 to 0.003. Total expansion step are set as 20 steps same for all cases. From the Table \ref{table:ASR_30_EXP} can be seen that with the increasing of giving initial strain in each step, the global expansion reached in step 20 also increased. Non-damage model is using here for compare.
+Expansion is carried out with initial strain given in each step various from 0 to 0.003. Total expansion step are set as 20 steps same for all cases. From the Table \ref{table:ASR_30_EXPppp} can be seen that with the increasing of giving initial strain in each step, the global expansion reached in step 20 also increased. Non-damage model is using here for compare.
 
 \begin{table}[ht!]
+
+\caption{One Dimensional Expansion Ratio in Single ASR Model Simulation}
+
 \centering
 \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|| }
  \hline
@@ -28,8 +32,8 @@ Expansion is carried out with initial strain given in each step various from 0 t
  30 & 75 & 0.003 & 20 & 1.3224\\
  \hline
 \end{tabular}
-\caption{One Dimensional Expansion Ratio in Single ASR Model Simulation}
-\label{table:ASR_30_EXP}
+
+\label{table:ASR_30_EXPppp}
 \end{table}
 
 \begin{figure}[!h]
@@ -73,7 +77,7 @@ Expansion is carried out with initial strain given in each step various from 0 t
     \end{subfigure}
     %*******
 
-  \caption{3D Surface Cracks (Deformation x 10)}
+  \caption{3D Surface Cracks ($Deformation \times 10$)}
   \label{fig:ASR_A30P75_3D}
 \end{figure}
 
@@ -119,7 +123,7 @@ Expansion is carried out with initial strain given in each step various from 0 t
     \end{subfigure}
     %*******
 
-  \caption{3D Surface Cracks (Single Side View, Deformation x 10)}
+  \caption{3D Surface Cracks (Single Side View, $Deformation \times 10$)}
   \label{fig:ASR_A30P75_3DS}
 \end{figure}
 
@@ -128,6 +132,8 @@ As shown in Figure \ref{fig:ASR_A30P75_3D} and Figure \ref{fig:ASR_A30P75_3DS}, 
 This also indicated that our simulation can still predict the map cracking behavior for ASR expansion in different deterioration levels.
 
 It is possible that the position where large crack generated is determined by other factors, for example, the location of coarse aggregate.
+
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -170,11 +176,11 @@ It is possible that the position where large crack generated is determined by ot
     \end{subfigure}
     %*******
 
-  \caption{3D Inner Crack Width Larger than 0.03mm}
+  \caption{3D Inner Crack Width Larger than 0.03 mm}
   \label{fig:ASR_A30P75_crack}
 \end{figure}
 
-By comparing the inner cracking condition in Figure \ref{fig:ASR_A30P75_crack}, it can be seen that start from 0.1936\% of one-dimensional global expansion, cracks larger than 0.03mm are generated and able to be recognizable by the naked eye. With the increase of global expansion ratio, the inner crack generally increases, distributed relatively uniform in all inner part of the expanded model. This cracking pattern will be compared with ASR expansion in different reactive aggregate ratio simulation and also DEF simulations.
+By comparing the inner cracking condition in Figure \ref{fig:ASR_A30P75_crack}, it can be seen that start from 0.1936\% of one-dimensional global expansion, cracks larger than 0.03 mm are generated and able to be recognizable by the naked eye. With the increase of global expansion ratio, the inner crack generally increases, distributed relatively uniform in all inner part of the expanded model. This cracking pattern will be compared with ASR expansion in different reactive aggregate ratio simulation and also DEF simulations.
 
 %% ASR_A30_P75_3 Internal Stress
 \begin{figure}[h!]
@@ -310,7 +316,7 @@ By comparing the inner cracking condition in Figure \ref{fig:ASR_A30P75_crack}, 
 
     \input{Chapters/tagCS10}
 
-\caption{Generation of Internal Stress and Inner Cracks for ASR Expansion to Step 20(Final Expansion Step, Deformation x 10)}
+\caption{Generation of Internal Stress and Inner Cracks for ASR Expansion[\%] to Step 20(Final Expansion Step, $Deformation \times 10$)}
 \label{fig:A30_P75_stress}
 \end{figure}
 
@@ -320,9 +326,9 @@ In Figure \ref{fig:A30_P75_stress}, the internal stress distribution in some mid
 
 This suggests deteration caused by ASR not only causing the aesthetic problem on the surface of the concrete structure but also indicate structually damage inside.
 
-By visualizing the inner crack, we can confirm that the inner part of the ASR-damaged concrete model also deteriorated. As the increasing of global expansion, inner cracks gradually increase its number and volume, in cases over 0.8\% global expansion, crack with a width larger than 0.03mm almost covered all inner part of the expanded model.
+By visualizing the inner crack, we can confirm that the inner part of the ASR-damaged concrete model also deteriorated. As the increasing of global expansion, inner cracks gradually increase its number and volume, in cases over 0.8\% global expansion, crack with a width larger than 0.03 mm almost covered all inner part of the expanded model.
 
-The advantage of 3D RBSM also allows us to obtain the precise number of cracked internal faces at the end of each expansion process. Here in Figure \ref{A30P75CRACK} the cracked interfaces in corresponding of expansion separated by crack width are presented.
+The advantage of 3D RBSM also allows us to obtain the precise number of cracked internal faces at the end of each expansion process. Here in Figure \ref{A30P75CRACKkk} the cracked interfaces in corresponding of expansion separated by crack width are presented.
 
 It can be seen that with the increase of global expansion, cracks are all width range increase its number gradually. Larger cracks appear later during expansion comparing to cracks in a smaller width, which are easier to generate even with a very small global expansion.
 
@@ -330,5 +336,5 @@ It can be seen that with the increase of global expansion, cracks are all width 
 \centering
 \includegraphics[width=.8\linewidth]{Files/interface/A30P75CRACK.png}
   \caption{Number of Cracked Interface vs. Expansion}
-  \label{A30P75CRACK}
+  \label{A30P75CRACKkk}
 \end{figure}

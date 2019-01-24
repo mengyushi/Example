@@ -28,7 +28,13 @@ For ASR and DEF, the initial strains are introduced at different interfaces in c
 
 Expansion is giving to simulative the behavior of model up to 1.3\% expansion(in one dimensional).
 
-To calculate the one dimensional expansion, here 2 elements located at center of left and right surface, seperately, are selected, their distant before and after expansion is recorded.
+To calculate the one dimensional expansion, here 2 elements located at center of left and right surface, seperately, are selected, their distant before and after expansion is recorded, and expansion in one-dimensional is calculated using the following equation:
+
+\begin{equation}
+  exp = \frac{d-d_0}{d_0}
+\end{equation}
+
+Where $d_0$ is the distant between the center of two elements selected, shown in Figure \ref{twopoints}, and $d$ is the distant between the center of two elements selected after or in middle steps of expansion.
 
 \begin{figure}[h!]
 \centering
@@ -46,6 +52,7 @@ To calculate the one dimensional expansion, here 2 elements located at center of
 \end{subfigure}%
 %*******
 \caption{Points Selected For Calculation One-dimensional Expansion}
+\label{twopoints}
 \end{figure}
 
 \subsection{ASR Expansion Behavior In Simulation}
@@ -57,20 +64,22 @@ As we consider the ratio of reactive aggregate may differ the behavior of the mo
 \begin{figure}
   \centering
   \includegraphics[width=0.4\linewidth]{Files/Background/EDDY_ASR.png}
-  \caption{Characteristic Map Cracking Pattern of ASR bu RBSM Simulation, L.EDDY et al. (2016)}
+  \caption{Characteristic Map Cracking Pattern of ASR bu RBSM Simulation, L.EDDY et al. (2016)\cite{Eddy}}
+
+  \label{ASRgood}
 \end{figure}
 
-As in the research done by L.EDDY et al. (2016)\cite{Eddy}, the desired characteristic map cracking pattern of ASR expansion has already achieved in this method. In this simulation, the discussion is focused on the relationship between cracking pattern with aggregate percentage, reactive aggregate, expanding ratio, also the residual mechanical properties of ASR-damaged concrete.
+As in the research done by L.EDDY et al. (2016)\cite{Eddy}, the desired characteristic map cracking pattern of ASR expansion has already achieved in this method, shown in Figure \ref{ASRgood}. In this simulation, the discussion is focused on the relationship between cracking pattern with aggregate percentage, reactive aggregate, expanding ratio, also the residual mechanical properties of ASR-damaged concrete.
 
 \subsection{DEF Expansion Behavior In Simulation}
 
 Similar model and mechanism are also applied in the simulation of DEF  type expansion. Following the popular theory of expansion in DEF  is caused by expansion of paste, initial strain here is given to the interfaces between mortar elements to present the DEF expansion.
 
-According to the previous study done by L.EDDY et al, simple uniformed paste expansion theory need improvement. Whether for cases giving initial strain to 100\%, 50\% or 25\% random faces of mortar chosen to expanse, the surface of expanded concrete does not match with the actual cracking pattern.
+According to the previous study done by L.EDDY et al\cite{Eddy}, simple uniformed paste expansion theory need improvement. Whether for cases giving initial strain to 100\%, 50\% or 25\% random faces of mortar chosen to expanse, the surface of expanded concrete does not match with the actual cracking pattern.
 
-It is well established that high early temperature experienced by the concrete is the most important factor inducing DEF in concrete. (Ghorab et al .,1980\cite{Ghorab}, Heinz, D et al., 1986\ref{Heinz} etc.)
+It is well established that high early temperature experienced by the concrete is the most important factor inducing DEF in concrete. (Ghorab et al .,1980\cite{Ghorab} etc.)
 
-The research done by Anupam (2016)\cite{Awasthi} confirmed the rising of the temperature inside concrete due to combination effect of steam curing and heat of hydration inside the concrete is not uniform. Both the simulation result is done by Astea Macs (FEM based non-linear thermal stress analysis program developed by Research Center of Computational Mechanics, Japan) and the field measurement of temperature rising process inside concrete during steam curing in a concrete plant located in India shows the un-uniformed distribution of maximum temperature experienced. The temperature in the center of the concrete structure is significantly higher than the outer part.
+The research done by Awasthi (2016)\cite{Awasthi} confirmed the rising of the temperature inside concrete due to combination effect of steam curing and heat of hydration inside the concrete is not uniform. Both the simulation result is done by Astea Macs (FEM based non-linear thermal stress analysis program developed by Research Center of Computational Mechanics, Japan) and the field measurement of temperature rising process inside concrete during steam curing in a concrete plant located in India shows the un-uniformed distribution of maximum temperature experienced. The temperature in the center of the concrete structure is significantly higher than the outer part, shown in Figure \ref{fig:temp_measurement}.
 
 \begin{figure}[ht!]
 \centering
@@ -80,7 +89,7 @@ The research done by Anupam (2016)\cite{Awasthi} confirmed the rising of the tem
 \end{figure}
 
 
-The cracking pattern in DEF damaged concrete, recorded by Anupam (2016)\cite{Awasthi}, also suggested the possibility of non-uniformed expansion happens in DEF damaged concrete structure. The cracking concentrated in the outer part of the structure, while the inner part remained undamaged, showing the trend of larger expansion happening in the inner part of the concrete paste.
+The cracking pattern in DEF damaged concrete, recorded by Awasthi (2016)\cite{Awasthi}, also suggested the possibility of non-uniformed expansion happens in DEF damaged concrete structure. The cracking concentrated in the outer part of the structure, while the inner part remained undamaged, showing the trend of larger expansion happening in the inner part of the concrete paste (Figure \ref{fig:section_view}).
 
 \begin{figure}[ht!]
 \centering
@@ -92,7 +101,7 @@ The cracking pattern in DEF damaged concrete, recorded by Anupam (2016)\cite{Awa
 Considering the effect of temperature on triggering  DEF expansion and its characteristic cracking pattern, for DEF simulation, uniform expansion does not quite fit with the real situation. The expansion inside concrete structure supposes to be much severe than the outer part. For which here in this research non-uniformed expanding is introduced by giving a different amount of DEF initial strain considering the location of element.
 
 
-The inner part of the model will be giving larger initial strain,  present the higher maximum temperature experienced, while the outer part mortar will be giving small or none initial strain.
+The inner part of the model, as shown in Figure \ref{fig:non-uniform DEF}, will be giving larger initial strain,  present the higher maximum temperature experienced, while the outer part mortar will be giving small or none initial strain.
 
 \begin{figure}[ht]
 \centering
@@ -107,7 +116,7 @@ The inner part of the model will be giving larger initial strain,  present the h
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3ds.png}
     \end{subfigure}
     %*******
-  \caption{50x50x50mm DEF intensified part range}
+  \caption{$50 \times 50 \times 50$ mm DEF intensified part range}
   \label{fig:non-uniform DEF}
   \end{figure}
 

@@ -5,7 +5,7 @@
 
 Similar with ASR loading simulation, uni-axial compression test result for DEF expanded concrete model is summarised.
 
-DEF loading simulation results of intensified center 50x50x50mm (labeled as I50), 75x75x75mm (labeled as I75) and uniformly expansion for all part (intensified center 100x100x100mm, labeled as I100), with aggregate percentage of 30\%, are presented.  Alternated case for I50 with 15\% coarse aggregate is also presented.
+DEF loading simulation results of intensified center $50 \times 50 \times 50$ mm (labeled as I50), $75 \times 75 \times 75$ mm (labeled as I75) and uniformly expansion for all part (intensified center $100 \times 100 \times 100$ mm, labeled as I100), with aggregate percentage of 30\%, are presented, shown in Figure \ref{rangeagain} and Figure \ref{ahhhhh}. Alternated case for I50 with 15\% coarse aggregate is also presented.
 
 \begin{figure}[!ht]
 \centering
@@ -13,22 +13,23 @@ DEF loading simulation results of intensified center 50x50x50mm (labeled as I50)
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3ds.png}
-      \caption{Intensified 50x50x50mm Case\\ I50}
+      \caption{Intensified $50 \times 50 \times 50$ mm Case\\ I50}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-5_3ds.png}
-      \caption{Intensified 75x75x75mm Case \\ I75}
+      \caption{Intensified $75 \times 75 \times 75$ mm Case \\ I75}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.9\linewidth]{Files/DEF_X/X-1_3ds.png}
-      \caption{Intensified 100x100x100mm Case\\ I100}
+      \caption{Intensified $100 \times 100 \times 100$ mm Case\\ I100}
     \end{subfigure}
     %*******
   \caption{DEF intensified part range}
+  \label{rangeagain}
 \end{figure}
 
 \begin{figure}[!h]
@@ -46,9 +47,10 @@ DEF loading simulation results of intensified center 50x50x50mm (labeled as I50)
   \label{fig:A15_model}
 \end{subfigure}
 \caption{Coarse Aggregate Percentage}
+\label{ahhhhh}
 \end{figure}
 
-From Figure \ref{fig:A30X0FIX_LD}, Figure \ref{fig:A30X-5FIX_LD}, Figure \ref{fig:A30X-5FIX_LD} and Figure \ref{fig:A15X0FIX_LD}, Load-Displacement relationships in fix boundary condition uni-axial compression test are shown.
+From Figure \ref{fig:A30X0FIX_LD}, Figure \ref{fig:A30X-5FIX_LD}, Figure \ref{fig:A30X-1asdasdaFIX_LD} and Figure \ref{fig:A15X0FIX_LD}, Load-Displacement relationships in fix boundary condition uni-axial compression test are shown.
 
 %A30X0FIX
 
@@ -74,7 +76,7 @@ From Figure \ref{fig:A30X0FIX_LD}, Figure \ref{fig:A30X-5FIX_LD}, Figure \ref{fi
 \centering
 \includegraphics[width=.8\linewidth]{Files/exp_3D/DEF/S13A30FIXX-1-LOAD-DISPLACEMENT.png}
   \caption{A15 I50 Fix Load-Displacement}
-  \label{fig:A30X-1FIX_LD}
+  \label{fig:A30X-1asdasdaFIX_LD}
 \end{figure}
 
 %A15X0FIX
@@ -88,9 +90,27 @@ From Figure \ref{fig:A30X0FIX_LD}, Figure \ref{fig:A30X-5FIX_LD}, Figure \ref{fi
 
 \clearpage
 
+If comparing to load displacement curve obtained by Brunetaud et al., 2008\cite{Bruetaud}, shown in Figure \ref{BruetaudLoadDisp} and Figure \ref{BruetaudLoadDisp2}, it can be seen that our simulation result does show a similar trend in load displacement relationship, also a close result in maximum loading, but the slop in load-displacement cureve, which indicate elastic modulus, is relatively far from the experiental result.[Brunetaud et al., 2008]
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Reference/BruetaudLoadDisp2.png}
+  \caption{Stress Strain relationship, 0.54\% expansion.}
+  \label{BruetaudLoadDisp}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Reference/BruetaudLoadDisp2.png}
+  \caption{Stress Strain relationship, 1.06\% expansion.}
+  \label{BruetaudLoadDisp2}
+\end{figure}
+
+\clearpage
+
 The simulation result in residual compressive strength of DEF damaged models here is plotted, as in Figure \ref{DEF_CS_summary}, which can be seen that different with ASR simulation, the decresaing trend in compressive strength is not significantly influenced by factors such as percentage of coarse aggregate, especially the intensified zone range of DEF expansion.
 
-However, same as in ASR expansion elastic modulus simulation results, the residual elasic modulus in all DEF cases are also significantly lower than expanerimental results. Adjustment in mechnical properties of DEF expanded concrete model may also require modification in further research.
+However, same as in ASR expansion elastic modulus simulation results, the residual elasic modulus in all DEF cases are also significantly lower than expanerimental results (Figure \ref{DEF_EM_summary}). One of the assumption is that in our simulation model, once crack is opened, it would be set as void with no abilitu to carry any force before closing the gap totally. However, this may not be true in really, for DEF, Ettringite are concentrated in some of the cracke generate. Adjustment in mechnical properties of DEF expanded concrete model may also require modification in further research.
 
 \begin{figure}[ht!]
 \centering
@@ -111,7 +131,7 @@ In general, the trend in residual compressive strength changing obtained from si
 
 In some of the Load-Displacement plotting, discontinuity in Elastic Modulus is shown in the loading result, especially in A30 I75 cases and A15 I50 cases. This phenomena is also very common in damaged concrete in reality as the Elastic Modulus would change when cracks are closed horizontally.
 
-As shown in Figure \ref{DEFA30vsA15}, if comparing 30\% coarse aggregate results(with center 50x50x50mm zone given intensified DEF expansion), which are labeled as A30 I50, and 15\% coarse aggregate results(with center 50x50x50mm zone given intensified DEF expansion), which are labeled as A15 I50, it can be seen that the residual compressive strength in 15\% coarse aggregate cases are relative lower than the 30\% coarse aggregate cases. However, if compare the residual elastic modulus of A30 I50 and A15 I50 in Figure \ref{DEF_EM_summary}, in this time, residual compressive strength in 15\% coarse aggregate cases are relative higher than the 30\% coarse aggregate cases.
+As shown in Figure \ref{DEFA30vsA15}, if comparing 30\% coarse aggregate results(with center $50 \times 50 \times 50$ mm zone given intensified DEF expansion), which are labeled as A30 I50, and 15\% coarse aggregate results(with center $50 \times 50 \times 50$ mm zone given intensified DEF expansion), which are labeled as A15 I50, it can be seen that the residual compressive strength in 15\% coarse aggregate cases are relative lower than the 30\% coarse aggregate cases. However, if compare the residual elastic modulus of A30 I50 and A15 I50 in Figure \ref{DEF_EM_summary}, in this time, residual compressive strength in 15\% coarse aggregate cases are relative higher than the 30\% coarse aggregate cases.
 
 \begin{figure}[ht!]
 \centering
@@ -139,5 +159,14 @@ However, the residual compressive strength results for same 30\% coarse aggregat
 While changing DEF expansion intensified zone does change the cracking pattern signigicantly, the mechanical properties such as compressive strength is not significantly changed.
 
 However, if cross compare the trend in residual compressive strength and residual elastic modulus, shown in Figure \ref{DEF_X} and \ref{DEF_X_EM}, it can be seen that the cases with highest residual compressive strength (which is A30 I100 cases here), are having lowest residual elastic modulus. While the cases with lowest residual compressive strength (which is A30 I50 cases here), are having highest residual elastic modulus.
+
+And in Figure \ref{compare}, the inner crack distribution changing with the increasing of global expansion is plotted. it can be seen that at same amount of global expansion, the destribution of cracks in different width zone is not the same. More larger cracks are generated in ASR expansion when same global expansion is the same. This may be one of the reason that differences exist between their residual mechanism properties like compressive strength.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/exp_3D/Compare.png}
+  \caption{Comparing crack distribution for ASR and DEF expansion}
+  \label{compare}
+\end{figure}
 
 In later section, further disscussion of the relationship between cracking distribution in DEF expanded concrete model and its residual mechanical properties will also be presented.

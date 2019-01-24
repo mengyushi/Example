@@ -4,18 +4,19 @@
 
 In this section, the relationship between given initial strain, final expansion and behavior during expansion is discussed.
 
-Model in size of 100x100x100mm is in used, with 30\% Aggregate, and 25\% area have intensified DEF reaction, while the expanding giving to the model gradually decrease to 0 in the surrounded part.
+Model in size of $100 \times 100 \times 100$ mm (Figure \ref{fig:A30_mfsfsfodel}) is in used, with 30\% Aggregate, and 25\% area have intensified DEF reaction, while the expanding giving to the model gradually decrease to 0 in the surrounded part.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=.3\linewidth]{Files/Aggregate/A30.png}
   \caption{30\% Coarse Aggregate}
-  \label{fig:A30_model}
+  \label{fig:A30_mfsfsfodel}
 \end{figure}
 
-Expansion is carried out with initial strain given in each step for intensified zone various from 0 to 0.0006mm. Initial strain given to the surrounding part of paste gradually decreasing to 0. Total expansion step are set as 20 steps same for all cases. From the Table \ref{table:DEF_X0C_EXP} can be seen that with the increasing of giving initial strain in each step, the global expansion reached in step 20 also increased.
+Expansion is carried out with initial strain given in each step for intensified zone various from 0 to 0.0006 mm. Initial strain given to the surrounding part of paste gradually decreasing to 0. Total expansion step are set as 20 steps same for all cases. From the Table \ref{table:DEF_X0C_EXP} and Figure \ref{fig:DEFA30X0C_exdfdsp} can be seen that with the increasing of giving initial strain in each step, the global expansion reached in step 20 also increased.
 
 \begin{table}[ht!]
+  \caption{One Dimensional Expansion Ratio[\%] in Single DEF Model Simulation}
 \centering
 \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|| }
  \hline
@@ -29,15 +30,15 @@ Expansion is carried out with initial strain given in each step for intensified 
 
  \hline
 \end{tabular}
-\caption{One Dimensional Expansion Ratio in Single DEF Model Simulation}
+
 \label{table:DEF_X0C_EXP}
 \end{table}
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.8\linewidth]{Files/exp_plot/DEFA30X0C_exp.png}
-  \caption{Global Expansion vs. Step}
-  \label{fig:DEFA30X0C_exp}
+  \caption{Global Expansion vs. Initial Strain Given in Each Step}
+  \label{fig:DEFA30X0C_exdfdsp}
 \end{figure}
 
 \begin{figure}[!h]
@@ -75,7 +76,7 @@ Expansion is carried out with initial strain given in each step for intensified 
     \end{subfigure}%
     %*******
 
-  \caption{3D Surface Cracks (Deformation x 10)}
+  \caption{3D Surface Cracks ($Deformation \times 10$)}
   \label{fig:DEF_A30X0C_3D}
 \end{figure}
 
@@ -115,7 +116,7 @@ Expansion is carried out with initial strain given in each step for intensified 
     \end{subfigure}%
     %*******
 
-  \caption{3D Surface Cracks (Single Side View, Deformation x 10)}
+  \caption{3D Surface Cracks (Single Side View, $Deformation \times 10$)}
   \label{fig:DEF_A30X0C_3DS}
 \end{figure}
 
@@ -154,7 +155,7 @@ Expansion is carried out with initial strain given in each step for intensified 
     \end{subfigure}%
     %*******
 
-  \caption{3D Inner Cracks Larger than 0.03mm}
+  \caption{3D Inner Cracks Larger than 0.03 mm}
   \label{fig:DEF_A30X0C_crack}
 \end{figure}
 
@@ -272,17 +273,30 @@ This indicated that our simulation can still predict the map cracking behavior f
 
     \input{Chapters/tagCS10}
 
-\caption{Generation of Internal Stress and Inner Cracks for DEF Expansion to Step 20(Final Expansion Step, Deformation x 10)}
+\caption{Generation of Internal Stress and Inner Cracks for DEF Expansion[\%] to Step 20(Final Expansion Step, $Deformation \times 10$)}
 \label{fig:A30_X0C_stress}
 \end{figure}
 
 In Figure \ref{fig:A30_X0C_stress}, the internal stress distribution in some middle step and last expansion step are shown. By increasing the initial strain giving to present DEF expansion in each step, the expansion developed more rapidly and more cracks generated especially on the outside part of concrete sturcture. This result is consistent with the 3D cracking pattern presented earlier in this section, where cracks are generated in the surrounding part of the model.
 
-This pattern of crack development is very different from ASR cases, and may suggests deterioration caused by DEF  may not suffering severe inner structually damage inside as it looks from the surface. Here in Figure \ref{A30X0CCRACK} the cracked interfaces in corresponding of expansion separated by crack width in DEF case are presented.
+\clearpage
+
+This pattern of crack development is very different from ASR cases, and may suggests deterioration caused by DEF  may not suffering severe inner structually damage inside as it looks from the surface. Here in Figure \ref{A30X0CCRACKKK} the cracked interfaces in corresponding of expansion separated by crack width in DEF case are presented.
+
+if cross compare with the generation of cracks in ASR case, as shown in Figure \ref{Compare}, where the ASR expansion in case of 30\% coarse aggregate, 75\%of which are ASR reactive (marked in solid line) are compared with this DEF case(marked in dash line).
+
+It can be seen that comparing to ASR case, at same global expansion, DEF have more relatively small width cracks and less larger cracks, such as cracks larger than 0.01 mm. This difference in distribution of cracks may not lead to significant difference in surface cracking pattern, especially when checking with naked eyes, but would certainly cause differences in mechanical properties and behavior under loading. Further disscusion will be present in chapter 4 when residual mechanical properties are discussed.
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.8\linewidth]{Files/interface/A30X0CCRACK.png}
   \caption{Number of Cracked Interface vs. Expansion}
-  \label{A30X0CCRACK}
+  \label{A30X0CCRACKKK}
+\end{figure}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Files/exp_3D/Compare.png}
+  \caption{Number of Cracked Interface vs. Expansion, Comparing of ASR and DEF cases}
+  \label{Compare}
 \end{figure}

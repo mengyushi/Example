@@ -2,14 +2,14 @@
 
 \subsection{Geometry of Numerical Models}
 
-Figure \ref{fig:model} shows the geometry of the model, which is in dimension of 100 x 100 x 100mm. Numbers of elements around 120000. Average diameter of meshed element is around 2mm.
+Figure \ref{fig:model} shows the geometry of the model, which is in dimension of $100 \times 100 \times 100$ mm. Numbers of elements around 120000. Average diameter of meshed element is around 2 mm.
 
 \begin{figure}[ht!]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=.6\linewidth]{Files/exp_3D/Undamaged.png}
-  \caption{3D model in dimension 100x100x100mm}
+  \caption{3D model in dimension $100 \times 100 \times 100$ mm}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -22,7 +22,7 @@ Figure \ref{fig:model} shows the geometry of the model, which is in dimension of
 
 \subsection{Coarse Aggregate of Numerical Models}
 
-To analysis the behavior of concrete with different coarse aggregate volume ratio, 15\% coarse aggregate model(Figure \ref{fig:A15_model}) and 30\% coarse aggregate model(Figure \ref{fig:A30_model}) are built for simulation.
+To analysis the behavior of concrete with different coarse aggregate volume ratio, 15\% coarse aggregate model and 30\% coarse aggregate model(Figure \ref{fig:Aggresgate_Percentage}) are built for simulation.
 
 \begin{figure}[ht!]
 \centering
@@ -39,12 +39,12 @@ To analysis the behavior of concrete with different coarse aggregate volume rati
   \label{fig:A30_model}
 \end{subfigure}
 \caption{Coarse Aggregate Percentage}
-\label{fig:Aggregate_Percentage}
+\label{fig:Aggresgate_Percentage}
 \end{figure}
 
 \subsection{ASR Reactive Coarse Aggregate Ratio}
 
-To analysis the behavior of concrete with different ASR reactive coarse aggregate ratio, 25\% ASR reactive coarse aggregate ratio model and 25\% ASR reactive coarse aggregate ratio model are built for 30\% aggregate case.
+To analysis the behavior of concrete with different ASR reactive coarse aggregate ratio, 25\% ASR reactive coarse aggregate ratio model and 25\% ASR reactive coarse aggregate ratio model are built for 30\% aggregate case, as shown in Figure \ref{fig:Aggregate_Percssssentage}.
 
 \begin{figure}[!h]
 \centering
@@ -59,7 +59,7 @@ To analysis the behavior of concrete with different ASR reactive coarse aggregat
   \caption{30\% Coarse Aggregate with 25\% ASR Reactive Aggregate}
 \end{subfigure}
 \caption{25\% and 75\% ASR Reactive Aggregate Ratio Model}
-\label{fig:Aggregate_Percentage}
+\label{fig:Aggregate_Percssssentage}
 \end{figure}
 
 \subsection{Boundary Conditions}
@@ -70,26 +70,27 @@ During ASR Expansion, no confinements are added to the boundary elements. Models
 
 \subsubsection{Boundary Conditions During Uni-axial Loading Test}
 
-Figure \ref{boundary} shows the boundary condition of simulation models for uni-axial loading test.
+Figure \ref{boundary1} shows the boundary condition of simulation models for uni-axial loading test.
 
 \begin{figure}[h!]
   \centering
   \includegraphics{Files/Background/LOAD.png}
   \caption{Top and Bottom Boundary in Loading}
-  \label{boundary}
+  \label{boundary1}
 \end{figure}
 
-In the case of fixed boundary condition, displacement in all directions are assumed as 0 at the bottom. Displacement in horizontal directions are all assumed as 0 at the top, and displacement in vertical direction is increased by 0.02mm downward at each loading step.
+In the case of fixed boundary condition, displacement in all directions are assumed as 0 at the bottom. Displacement in horizontal directions are all assumed as 0 at the top, and displacement in vertical direction is increased by 0.02 mm downward at each loading step.
 
-In the case of free boundary condition, all boundary elements able to move freely in horizontal direction except 2 center elements in top and bottom are fixed in horizontal direction, to prevent the sliding of whole model during loading. Same as fixed boundary condition cases, displacement in vertical direction is increased by 0.02mm downward at each loading step for top boundary elements.
+In the case of free boundary condition, all boundary elements able to move freely in horizontal direction except 2 center elements in top and bottom are fixed in horizontal direction, to prevent the sliding of whole model during loading. Same as fixed boundary condition cases, displacement in vertical direction is increased by 0.02 mm downward at each loading step for top boundary elements.
 
 Loading is applied until the maximum compressive strength is reached.
 
 \subsection{Initial Strain Given For ASR Expansion}
 
-To analysis the relationship of concrete behavior and mechanical properties with expansion amount, initial strain is given between reactive aggregate and mortar.
+To analysis the relationship of concrete behavior and mechanical properties with expansion amount, initial strain is given between reactive aggregate and mortar. All models are summarised in Table \ref{table:ASR_MODELS}.
 
 \begin{table}[ht!]
+  \caption{ASR Models}
 \centering
 \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|| }
  \hline
@@ -128,7 +129,7 @@ To analysis the relationship of concrete behavior and mechanical properties with
  30 & 25 & Fix & 0.006 & 20 \\  [0.5ex]
  \hline
 \end{tabular}
-\caption{ASR Models}
+
 \label{table:ASR_MODELS}
 \end{table}
 

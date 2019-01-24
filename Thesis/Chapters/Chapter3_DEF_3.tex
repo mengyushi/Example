@@ -4,7 +4,7 @@
 % A15X0Cfix vs A15X0Cfix
 In this section, the relationship between aggregate ratio and behavior during expansion is discussed.
 
-Expansion simulation result between 15\% coarse aggregate model and 30\% coarse aggregate model is compared here to analysis how the change in aggregate percentage influence the cracking pattern in different expansion ratio.
+Expansion simulation result between 15\% coarse aggregate model and 30\% coarse aggregate model (Figure \ref{fig:Aggregate_Percedfsdfntage}) are compared here to analysis how the change in aggregate percentage influence the cracking pattern in different expansion ratio.
 
 \begin{figure}[!h]
 \centering
@@ -21,13 +21,14 @@ Expansion simulation result between 15\% coarse aggregate model and 30\% coarse 
   \label{fig:A15_model}
 \end{subfigure}
 \caption{Coarse Aggregate Percentage}
-\label{fig:Aggregate_Percentage}
+\label{fig:Aggregate_Percedfsdfntage}
 \end{figure}
 
 
-From Table \ref{table:DEF_15vs30_EXP} can be seen that with same expansion step and same initial strain given in each step, the global expansion of with less coarse aggregate (A15 cases here) is higher than less coarse aggregate cases (A30 cases here).  As coarse aggregate ratio increased, DEF reactive interfaces decrease, which suggested the reason for achieving smaller global expansion in higher coarse aggregate cases.
+From Table \ref{table:DEF_15vs30_EXP} and Figure \ref{fig:DEFA30vsA15_esdfsdfxp} can be seen that with same expansion step and same initial strain given in each step, the global expansion of with less coarse aggregate (A15 cases here) is higher than less coarse aggregate cases (A30 cases here).  As coarse aggregate ratio increased, DEF reactive interfaces decrease, which suggested the reason for achieving smaller global expansion in higher coarse aggregate cases.
 
 \begin{table}[ht!]
+  \caption{One Dimensional Expansion Ratio in Single DEF Model Simulation}
 \centering
 \begin{tabular}{ ||p{2cm}|p{2cm}|p{2cm}|p{2cm}|| }
  \hline
@@ -40,16 +41,18 @@ From Table \ref{table:DEF_15vs30_EXP} can be seen that with same expansion step 
   0.006 & 20 & 0.9587 & 0.8785\\
  \hline
 \end{tabular}
-\caption{One Dimensional Expansion Ratio in Single DEF Model Simulation}
+
 \label{table:DEF_15vs30_EXP}
 \end{table}
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.8\linewidth]{Files/exp_plot/DEFA30vsA15_exp.png}
-  \caption{Global Expansion vs. Step}
-  \label{fig:DEFA30vsA15_exp}
+  \caption{Global Expansion vs. Initial Strain Given in Each Step}
+  \label{fig:DEFA30vsA15_esdfsdfxp}
 \end{figure}
+
+\clearpage
 
 \begin{figure}[!h]
 \centering
@@ -164,15 +167,16 @@ From Table \ref{table:DEF_15vs30_EXP} can be seen that with same expansion step 
     \caption{Case 4: 0.9587\% Expansion}
     \end{subfigure}%
 
-  \caption{3D Inner Cracks Larger than 0.03mm}
-  \label{fig:DEF_A15X0C_crack}
+  \caption{3D Inner Cracks Larger than 0.03 mm}
+  \label{fig:DEF_A15X0C_cracddk}
 \end{figure}
 
-Figure \ref{fig:DEF_A15X0C_3D} and Figure \ref{fig:DEF_A15X0C_3DS} show surface crack pattern after DEF expansion of 15\% coarse aggregate cases.
+
+Figure \ref{fig:DEF_A15X0C_3D} and Figure \ref{fig:DEF_A15X0C_3DS} show surface crack pattern after DEF expansion of 15\% coarse aggregate cases. Figure \ref{fig:DEF_A15X0C_cracddk} here shows the inner cracking condition.
 
 Here 2 cases from 15\% coarse aggregate model and 30\% coarse aggregate model in relatively close global expansion rate are compared to show the influence of coarse aggregate ratio on cracking pattern.
 
-For the aggregate ratio of 15\% model, case 3 is chosen, giving 0.0004mm initial strain for intensified DEF reactive interfaces, and reached 0.6631\% one-dimensional expansion after 20 steps. And for the aggregate ratio of 30\% model, case 3 is chosen, giving 0.004mm initial strain for DEF reactive interfaces and reached 0.5795\% one-dimensional expansion after 20 steps.
+For the aggregate ratio of 15\% model, case 3 is chosen, giving 0.0004initial strain for intensified DEF reactive interfaces, and reached 0.6631\% one-dimensional expansion after 20 steps. And for the aggregate ratio of 30\% model, case 3 is chosen, giving 0.004initial strain for DEF reactive interfaces and reached 0.5795\% one-dimensional expansion after 20 steps.
 
 If plot the global expansion with initial strain given in each step to simulate DEF expansion, it can be seen that model with higher percentage of aggregate reach higher global expansion in the same initial strain giving comparing to to lower aggregate content one. %FIXME: WHY?
 
@@ -227,6 +231,7 @@ This may caused by more complicated interaction between expanded pastes and aggr
 \end{figure}
 
 \begin{table}[!h]
+  \caption{Expansion in Each Step for A15P75 Case 3 and A30 P75 Case 3}
 \centering
 \begin{tabular}{ ||p{4cm}|p{4cm}|p{4cm}|| }
 \hline
@@ -246,7 +251,7 @@ This may caused by more complicated interaction between expanded pastes and aggr
 
   \hline
   \end{tabular}
-\caption{Expansion in Each Step for A15P75 Case 3 and A30 P75 Case 3}
+
 \label{table:A15vsA30P75_3_Cracks}
 \end{table}
 
@@ -257,4 +262,4 @@ Clear characteristic map cracking which normally observed in DEF expanded concre
 
 Also, in Figure \ref{fig:DEF_A15vsA30X0C_3D}, the inner crack distribution of 2 cases are compared. Though it is difficult to tell the difference by naked eyes, if comparing the distribution of cracks numerically summarised by its crack width (Table \ref{table:A15vsA30P75_3_Cracks}),  it can be seen that the distribution pattern is very close for 15\% coarse aggregate case with 0.6631\% global expansion and  30\% coarse aggregate case with 0.5795\% global expansion. The number of cracked faces decrease gradually when increasing the crack width.
 
-However, if compare closer on relatively larger cracks, cracking face number of the case with 30\% coarse aggregate is higher. For example, for the number of cracked interfaces larger than 0.003mm, 15\% coarse aggregate case is 12.64 times of 30\% coarse aggregate case. And for the number of cracked interfaces larger than 0.01mm, 30\% coarse aggregate case is 2.49 times of 15\% coarse aggregate case.  Those larger cracks having more significant influence when the global cracking patterns are compared and should distribute more when considering the damage on the concrete structure. Though it is difficult to distinguish by naked eye, the cracking pattern in 30\% coarse aggregate case is confirmed to be more concenreate with more large cracks in scale.
+However, if compare closer on relatively larger cracks, cracking face number of the case with 30\% coarse aggregate is higher. For example, for the number of cracked interfaces larger than 0.003 mm, 15\% coarse aggregate case is 12.64 times of 30\% coarse aggregate case. And for the number of cracked interfaces larger than 0.01 mm, 30\% coarse aggregate case is 2.49 times of 15\% coarse aggregate case.  Those larger cracks having more significant influence when the global cracking patterns are compared and should distribute more when considering the damage on the concrete structure. Though it is difficult to distinguish by naked eye, the cracking pattern in 30\% coarse aggregate case is confirmed to be more concenreate with more large cracks in scale.

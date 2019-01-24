@@ -7,7 +7,7 @@ In the analysis, the values of the material properties at the meso level given t
 
 The material properties for the elements were determined to give the correct macroscopic properties.  In the discrete analysis done by Nagai et al. in 2005\cite{Nagai}, the shape and fineness of elements do affect the analysis results.
 
-As we concern that the crack direction may affect the crack pattern, size of each concrete elements should be under consideration. Here for small example using 10x10x10mm model, the average diameter of elements is selected to be 0.05mm, while for larger size model in the dimension of 100x100x100mm, the size of each element is approximately 2x2x2mm to 3x3x3mm, almost the size of smallest coarse aggregate introduced. This assumption was made to represent the fracture behavior in concrete in a relatively high fineness and the behavior of both mortar and aggregate can be well presented.
+As we concern that the crack direction may affect the crack pattern, size of each concrete elements should be under consideration. Here for small example using $10 \times 10 \times 10$ mm model, the average diameter of elements is selected to be 0.05 mm, while for larger size model in the dimension of $100 \times 100 \times 100$ mm, the size of each element is approximately 2x2x2 mm to 3x3x3 mm, almost the size of smallest coarse aggregate introduced. This assumption was made to represent the fracture behavior in concrete in a relatively high fineness and the behavior of both mortar and aggregate can be well presented.
 
 In the elastic analysis, the relationship between macroscopic and mesoscopic Poisson's ratio, the effect of the mesoscopic Poisson's ratio on the macroscopic elastic modulus, are all confirmed by Nagai et al. in 2005\cite{Nagai}, using the same concepts.
 
@@ -46,7 +46,7 @@ In this study, the constitutive model of the concrete element has been developed
 
 The constitutive models of normal spring and a shear spring of concrete element using in this research are shown in Figure \ref{fig:constitutive_model}.
 
-Basically, the concept of the concrete model is the same as the original simulation development by Nagai et al., 2005, where the compressive failure is not allowed at the mesoscale. In the tension zone, crack between two rigid bodies occurs only when the tensile stress of the normal spring exceeds the tensile strength of the concrete($f_t$). After exceeding the tensile strength($f_t$), the tensile stress of a normal spring is assumed to decrease bi-linearly, depending on the crack width, to zero at the maximum crack width($w_{max}$), which here is assumed as 0.3mm. An elasto-plastic behavior is also assumed when coming to the shear spring of concrete element with the$\tau_{max}$ is calculated based on the following equations:
+Basically, the concept of the concrete model is the same as the original simulation development by Nagai et al., 2005, where the compressive failure is not allowed at the mesoscale. In the tension zone, crack between two rigid bodies occurs only when the tensile stress of the normal spring exceeds the tensile strength of the concrete($f_t$). After exceeding the tensile strength($f_t$), the tensile stress of a normal spring is assumed to decrease bi-linearly, depending on the crack width, to zero at the maximum crack width($w_{max}$), which here is assumed as 0.3 mm. An elasto-plastic behavior is also assumed when coming to the shear spring of concrete element with the$\tau_{max}$ is calculated based on the following equations:
 
 \begin{equation}
   \begin{aligned}

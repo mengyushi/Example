@@ -5,24 +5,24 @@
 
 Here the uni-axial compression test result for ASR expanded concrete model is summarised.
 
-As an example, compression test for cases with 30\% coarse aggregate, of which 75\% are set to be ASR reactive, will be presented in details.
+As an example, shown in Figure \ref{fig:A30P75_modesl}, compression test for cases with 30\% coarse aggregate, of which 75\% are set to be ASR reactive, will be presented in details.
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.3\linewidth]{Files/Aggregate/A30P75.png}
   \caption{30\% Coarse Aggregate}
-  \label{fig:A30P75_model}
+  \label{fig:A30P75_modesl}
 \end{figure}
 
 As introduced previously in chapter 2 and chapter 3, one-dimensional global expansion up to 1.3\% has been achieved by giving initial strain step by step at the interfaces between reactive aggregate and paste elements.
 
-After expansion, three-dimensional expanded concrete models are tested under uni-axial compression condition. Displacement of loading boundary is controlled, as the top boundary of the concrete model moves downwards 0.02mm in each step. Top and bottom boundaries are under fix condition.
+After expansion, three-dimensional expanded concrete models are tested under uni-axial compression condition. Displacement of loading boundary is controlled, as the top boundary of the concrete model moves downwards 0.02 mm in each step. Top and bottom boundaries are under fix condition.
 
 In each step of loading, compressive strength in the current step is recorded. As shown in Figure \ref{fig:A30P75FIX_LD}, the Load-Displacement curve obtained here is close to the shape of the normal concrete under fixed boundary compressive test, with increasing strength until reaching the maximum compressive strength, then decreasing until failure happens.
 
-Also, in Figure \ref{fig:A30P75FIX_LD}, the trend of decreasing in maximum compressive strength along with the increasing of one-dimensional global expansion is also shown. With the global expansion increasing up to 1.3\%, the compressive strength reduced gradually to 15.993MPa, which is 53\% of undamaged model.
+Also, in Figure \ref{fig:A30P75FIX_LD}, the trend of decreasing in maximum compressive strength along with the increasing of one-dimensional global expansion is also shown. With the global expansion increasing up to 1.3\%, the compressive strength reduced gradually to 15.993 MPa, which is 53\% of undamaged model.
 
-The Elastic Modulus, which here calculated as the maximum slope before compressive strength reaching the maximum, also shows the same trend when global expansion increase. While the Elastic Modulus is 33.8GPa for undamaged model, Elastic Modulus drop to 1.11GPa when global expansion reached 1.3\%.
+The Elastic Modulus, which here calculated as the maximum slope before compressive strength reaching the maximum, also shows the same trend when global expansion increase. While the Elastic Modulus is 33.8 GPa for undamaged model, Elastic Modulus drop to 1.11 GPa when global expansion reached 1.3\%.
 
 Loading with free boundary condition is also simulated here, and presented in Figure \ref{fig:A30P75FREE_LD}. As the boundary are set to be without horizontal frictions, cracks are more easier to open during loading, result in a generally 30\% smaller compressive strength comparing to the result from fixed boundary loading test. This is also corrisbonding with cases in reality. A similar decreasing trend in compressive strength and elastic modulus along with the increase of global expanding ratio can be obtained.
 
@@ -44,18 +44,34 @@ Loading with free boundary condition is also simulated here, and presented in Fi
   \label{fig:A30P75FREE_LD}
 \end{figure}
 
-Here if plot the Residual Compressive Strength obtained from fixed boundary expansion with the one dimensional gloal expansion, it can be seen that the trend is quite close with some of the experimental results, especially the results from Swamy \& Al-Asali, 1988 (Figure \ref{A30P75_CS})\cite{Swamy}.
+Shown in Figure \ref{AncaLoadDisp} are comparisons between the stress-strain relationships of four cylinder concrete specimens experimentally tested by Giaccio et al\cite{Giaccio}, in fixed boudary condition. Those numerically using three alternative concrete compression stress-strain response models—namely, Hognestad parabola, Attard and Setunge model\cite{Attard}, and Popovics HSC model\cite{Thorenfeldt}.
 
-The trend of lossing in residual compressive strength along with the increasing in expanion is well presented. Though the model used in this simulation is not identical with the experimental one, it does show similar trend in relately ratio of residential compressive strength lossing.
+Compare Figure \ref{AncaLoadDisp} with Figure \ref{fig:A30P75FIX_LD}, our simulation result does show a similar trend in load displacement relationship.
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=.8\linewidth]{Reference/AncaASR.png}
+  \caption{Stress-strain behavior in compression: (a) nonreactive mixture C1; (b) reactive mixture R2; (c) reactive mixture R3; and (d) reactive mixture R4. (Note: 1 kN = 0.2248 kip; 1 mm = 0.0394 in.)[Giaccio et al., 2008]}
+  \label{AncaLoadDisp}
+\end{figure}
+
+Here if plot the Residual Compressive Strength obtained from fixed boundary expansion with the one dimensional gloal expansion, it can be seen that the trend is quite close with some of the experimental results, especially the results from Swamy \& Al-Asali, 1988\cite{Swamy}.
+
+The trend of lossing in residual compressive strength along with the increasing in expanion is well presented, in Figure \ref{A30P7sss5_CS_2}. Though the model used in this simulation is not identical with the experimental one, it does show similar trend in relately ratio of residential compressive strength lossing.
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=.8\linewidth]{Files/CS_plot/ASRCS1.png}
   \caption{A30 P75 Compressive Strength Comparing With Experimental Results}
-  \label{A30P75_CS_2}
+  \label{A30P7sss5_CS_2}
 \end{figure}
 
-However, if plot the residual elastic modulus along with the increasing in expanion, shown in Figure \ref{A30P75_EM_2}, the losses in our simulation is significantly higher than experimental result. Start from very low expansion amout the simulated residual elastic modulus dropped to over 80\% losses. This implicate that the simulation and for expansion and loading in ASR still requires to be improved to represent the mechanical properties losses more percisely in reality.
+
+
+However, if plot the residual elastic modulus along with the increasing in expanion, shown in Figure \ref{A30P75_EM_2}, the losses in our simulation is significantly higher than experimental result. Start from very low expansion amout the simulated residual elastic modulus dropped to over 80\% losses.
+
+One of the assumption is that in our simulation model, once crack is opened, it would be set as void with no abilitu to carry any force before closing the gap totally. However, this may not be true in really, for ASR, gel is generated and filling in part of the cracks, especially cracks between aggregate and surrounding paste. The mechanical properties of ASR gel is still under discussion, and for certainly they should be considered when simulating the mechanical properties of ASR damaged models. Simulation and for expansion and loading in ASR still requires to be improved to represent the mechanical properties losses more percisely in reality.
+
 
 \begin{figure}[ht!]
 \centering
@@ -128,7 +144,7 @@ For ASR expanded model with 15\% coarse aggregate (of which 75\% are ASR reactiv
 
 \clearpage
 
-The simulation result in residual compressive strength here is plotted, as in Figure \ref{ASR_summary}, which can be seen that in ASR simulation, the decresaing trend in compressive strength is influenced by factores such as percentage of coarse aggregate, and percentage of reactive aggregate.
+The simulation result in residual compressive strength here is plotted, as in Figure \ref{ASR_CS_summary}, which can be seen that in ASR simulation, the decresaing trend in compressive strength is influenced by factores such as percentage of coarse aggregate, and percentage of reactive aggregate.
 
 \begin{figure}[ht!]
 \centering

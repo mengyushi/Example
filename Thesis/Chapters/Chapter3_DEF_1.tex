@@ -10,7 +10,35 @@ For DEF expansion is highly related to the curing temperature concrete experienc
 
 For surrounding part of the model, cases of non-expansion and gradually decreasing expansion are considered.
 
-In this section, 100x100x100mm model is using. For comparison, 3 different cases are simulated, which are intensified 50x50x50mm at the center of the model, intensified 75x75x75mm at the center of the model, and intensified all part of the model (100x100x100mm).
+In this section, $100 \times 100 \times 100$ mm model is using. For comparison, 3 different cases are simulated, which are intensified $50 \times 50 \times 50$ mm at the center of the model, intensified $75 \times 75 \times 75$ mm at the center of the model, and intensified all part of the model ($100 \times 100 \times 100$ mm).
+
+Similar with ASR expansion, before and after expansion, the distance of element between 2 elements, in this model with size $100 \times 100 \times 100$ mm and 30\% coarse aggregate, 113942 and 116197 are selected to gauge the expansion in expanding process (Figure \ref{exp_illstration2}). Before and in each step of the expansion, distant between the center of 113942 and 116197 are recorded, and expansion in one-dimensional is calculated using the following equation:
+
+
+\begin{equation}
+  exp = \frac{d-d_0}{d_0}
+\end{equation}
+
+\begin{figure}[!h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1.0\linewidth]{Files/Method/exp2D.png}
+  \caption{Illstration for Element 113942 and 116197 in Cross Section View}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1.0\linewidth]{Files/Method/exp3D.png}
+  \caption{Seleted Cross Section in 3D view}
+\end{subfigure}
+\caption{Illstration for Calculation of Expansion in one-dimensional}
+\label{exp_illstration2}
+\end{figure}
+
+
+Where $d_0$ is the distant between the center of element 113942 and 116197, and $d$ is the distant between the center of element 113942 and 116197 after expansion. In this example, the distant between two selected element before expansion, $d_0$, is 98.37 mm.
+
+The expansion in each step here is presented in Tabel \ref{table:A30X0C_3_EXsP} and Figure \ref{fig:DEFA30X0C_3_expvvvv}.
 
 \begin{figure}[ht]
 \centering
@@ -18,66 +46,45 @@ In this section, 100x100x100mm model is using. For comparison, 3 different cases
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3d.png}
-      \caption{Intensified  \\ 50x50x50mm Case}
+      \caption{Intensified  \\ $50 \times 50 \times 50$ mm Case}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-5_3d.png}
-      \caption{Intensified  \\ 75x75x75mm Case}
+      \caption{Intensified  \\ $75 \times 75 \times 75$ mm Case}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-1_3d.png}
-      \caption{Intensified  \\ 100x100x100mm Case}
+      \caption{Intensified  \\ $100 \times 100 \times 100$ mm Case}
     \end{subfigure}
     %*******
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3ds.png}
-      \caption{Intensified  \\ 50x50x50mm Case\\ Cross Section}
+      \caption{Intensified  \\ $50 \times 50 \times 50$ mm Case\\ Cross Section}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.8\linewidth]{Files/DEF_X/X-5_3ds.png}
-      \caption{Intensified \\  75x75x75mm Case \\ Cross Section}
+      \caption{Intensified \\  $75 \times 75 \times 75$ mm Case \\ Cross Section}
     \end{subfigure}%
     %*******
     \begin{subfigure}{.33\textwidth}
       \centering
       \includegraphics[width=.9\linewidth]{Files/DEF_X/X-1_3ds.png}
-      \caption{Intensified  \\ 100x100x100mm Case\\ Cross Section}
+      \caption{Intensified  \\ $100 \times 100 \times 100$ mm Case\\ Cross Section}
     \end{subfigure}
     %*******
   \caption{DEF intensified part range}
-  \label{fig:DEF_X}
+  \label{fig:DEF_sssX}
 \end{figure}
 
-This single example case showing here as an example has been choosing here use the model in the dimension of 100x100x100mm, with 30\% aggregate, of which center 50x50x50mm have intensified DEF reactive, and the expanding giving to the model gradually decrease to 0 in the surrounded part.
-
-\begin{figure}[ht]
-\centering
-    %*******
-    \begin{subfigure}{.33\textwidth}
-      \centering
-      \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3d.png}
-      \caption{Intensified \\ 50x50x50mm Case}
-    \end{subfigure}%
-
-    \begin{subfigure}{.33\textwidth}
-      \centering
-      \includegraphics[width=.8\linewidth]{Files/DEF_X/X0_3ds.png}
-      \caption{Intensified \\  50x50x50mm Case\\ Cross Section}
-    \end{subfigure}%
-    %*******
-
-  \caption{50x50x50mm DEF intensified part range}
-  \label{fig:DEF_X0}
-\end{figure}
-
+This single example case showing here as an example has been choosing here use the model in the dimension of $100 \times 100 \times 100$ mm, with 30\% aggregate, of which center $50 \times 50 \times 50$ mm have intensified DEF reactive, and the expanding giving to the model gradually decrease to 0 in the surrounded part (Figure \ref{fig:DEF_sssX}, Figure \ref{fig:A30_mosssdel}).
 
 %TODO: X0 illustration
 
@@ -85,16 +92,15 @@ This single example case showing here as an example has been choosing here use t
   \centering
   \includegraphics[width=.3\linewidth]{Files/Aggregate/A30.png}
     \caption{30\% Coarse Aggregate}
-    \label{fig:A30_model}
+    \label{fig:A30_mosssdel}
   \end{figure}
 
-Table. Aggregate consistent(if we have it)
-
-To simulate DEF expansion, an initial strain of 0.0004mm is given in intensified DEF expanding area in each step, and the initial strain gradually decrease to 0 for surrounded parts, for totally 20 steps expansion.
+To simulate DEF expansion, an initial strain of 0.0004 mm is given in intensified DEF expanding area in each step, and the initial strain gradually decrease to 0 for surrounded parts, for totally 20 steps expansion.
 
 %TODO: X0 D0.0004 Initial Strain
 
-  \begin{table}[ht]
+  \begin{table}[ht!]
+    \caption{Expansion in Each Step for A30 Case 3}
   \centering
   \begin{tabular}{ ||p{3cm}|p{3cm}||p{3cm}|p{3cm}|| }
   \hline
@@ -112,30 +118,24 @@ To simulate DEF expansion, an initial strain of 0.0004mm is given in intensified
     10 & 0.002768 & 20  & 0.005795 \\
     \hline
     \end{tabular}
-  \caption{Expansion in Each Step for A30 Case 3}
-  \label{table:A30X0C_3_EXP}
+
+  \label{table:A30X0C_3_EXsP}
   \end{table}
 
   \begin{figure}[ht!]
   \centering
   \includegraphics[width=.8\linewidth]{Files/exp_plot/DEFA30X0C_3_exp.png}
     \caption{Global Expansion vs. Step}
-    \label{fig:DEFA30X0C_3_exp}
+    \label{fig:DEFA30X0C_3_expvvvv}
   \end{figure}
 
 With the increasing of initial strain giving, the global expansion also gradually increasing. After 20 steps of DEF expansion, the model here reached 0.5795\% expansion(one-dimensionally). Characteristic DEF map cracking pattern can be seen on the surface of the expanded concrete modelin Figure \ref{fig:DEF_A30X0C_3_3D}.
 
-Here the surface cracking from experimental result, done by Yuichiro KAWABATA et al\cite{KAWABATA}. in 2011, is shown in Figure \ref{DEFcrack}, in shape of 100x100x400mm.
+Here the surface cracking from experimental result, done by Yuichiro KAWABATA et al\cite{KAWABATA}. in 2011, is shown in Figure \ref{DEFcrack}, in shape of $100 \times 100 \times 400$ mm.
 It can be seen that in Figure \ref{fig:DEF_A30X0C_3_3D}, similar map cracking is represented.
 
-  \begin{figure}[ht!]
-  \centering
-  \includegraphics[width=.8\linewidth]{Reference/DEFcrack.png}
-    \caption{Specimens of DEF expanded concretes KAWABATA et al., 2011]}
-    \label{DEFcrack}
-  \end{figure}
 
-In Figure \ref{fig:DEF_A30X0C_3_3D}, the inner distribution of cracked interface with width greater than 0.03mm is presented. It can be seen that the cracks are located with very clear patterns, concentrated in the inner part of the model. This inner cracking distribution pattern is very different with the cases ASR expansion.
+In Figure \ref{DEFcraaaack}, the inner distribution of cracked interface with width greater than 0.03 mm is presented. It can be seen that the cracks are located with very clear patterns, concentrated in the inner part of the model. This inner cracking distribution pattern is very different with the cases ASR expansion.
 
   \begin{figure}[ht!]
   \centering
@@ -149,19 +149,22 @@ In Figure \ref{fig:DEF_A30X0C_3_3D}, the inner distribution of cracked interface
         \includegraphics[width=.8\linewidth]{Files/exp_3D/DEF/A30X0C_3_3ds.png}
         \end{subfigure}
         %*******
-    \caption{3D Surface Cracks, 0.4223\% Expansion (Deformation x 10)}
+    \caption{3D Surface Cracks, 0.4223\% Expansion ($Deformation \times 10$)}
     \label{fig:DEF_A30X0C_3_3D}
   \end{figure}
 
   \begin{figure}[ht!]
   \centering
-      %*******
-      \begin{subfigure}{.5\textwidth}
-        \centering
-        \includegraphics[width=.8\linewidth]{Files/exp_3D/DEF/A30X0C_3_c.png}
-      \end{subfigure}%
-    \label{fig:DEF_A30X0C_3_crack}
+  \includegraphics[width=.8\linewidth]{Reference/DEFcrack.png}
+    \caption{Specimens of DEF expanded concretes KAWABATA et al., 2011]}
+    \label{DEFcrack}
+  \end{figure}
+
+  \begin{figure}[ht!]
+  \centering
+  \includegraphics[width=.8\linewidth]{Files/exp_3D/DEF/A30X0C_3_c.png}
     \caption{3D Inner Cracks, 0.4223\% Expansion}
+    \label{DEFcraaaack}
   \end{figure}
 
 % DEF_A30_X0C_3
@@ -299,15 +302,16 @@ In Figure \ref{fig:DEF_A30X0C_3_3D}, the inner distribution of cracked interface
 
       \input{Chapters/tagCS10}
 
-  \caption{Internal Stress in Each Step for A30 X0C Case 3 (Deformation x 10)}
+  \caption{Internal Stress in Each Step for A30 X0C Case 3 ($Deformation \times 10$)}
   \label{fig:DEF_A30X0C_3_IS}
   \end{figure}
 
 As can be seen in Figure \ref{fig:DEF_A30X0C_3_IS} the compressive stress (in red color) first concentrated in the part where initial strain is intensified given, and from step 1 to 20, unbalanced force penetrated in the concrete model, crack generated gradually around the aggregate and the surrounding part of the model.
 
-Same as previous in ASR expansion simulation,  cracked interfaces are summarised in different crack width scale, shown in Table \ref{table:A30X0C_3_Cracks}. The maximum crack width, in this case, is in range of 0.01-0.03mm, while most of the cracks still under 0.001mm. The number of cracked interfaces gradually decreases with the increase of crack width.
+Same as previous in ASR expansion simulation,  cracked interfaces are summarised in different crack width scale, shown in Table \ref{table:A30X0C_3_Cracks}. The maximum crack width, in this case, is in range of 0.01-0.03 mm, while most of the cracks still under 0.001 mm. The number of cracked interfaces gradually decreases with the increase of crack width.
 
-\begin{table}[!h]
+\begin{table}[!ht]
+  \caption{Expansion in Each Step for A30 X0C Case 3}
 \centering
 \begin{tabular}{ |p{4cm}|p{5cm}| }
 \hline
@@ -327,6 +331,6 @@ Same as previous in ASR expansion simulation,  cracked interfaces are summarised
 
   \hline
   \end{tabular}
-\caption{Expansion in Each Step for A30 X0C Case 3}
+
 \label{table:A30X0C_3_Cracks}
 \end{table}

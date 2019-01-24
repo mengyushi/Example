@@ -52,8 +52,8 @@
 \contentsline {subsection}{\numberline {3.5.2}Expansion Ratio Related to Behavior of Concrete During DEF Expansion}{62}{subsection.144}
 \contentsline {subsection}{\numberline {3.5.3}Aggregate Ratio Related to Behavior of Concrete During DEF Expansion}{68}{subsection.152}
 \contentsline {subsection}{\numberline {3.5.4}Expansion Intensified Part Range Related to Behavior of Concrete During DEF Expansion}{75}{subsection.161}
-\contentsline {subsubsection}{\numberline {3.5.4.1}Expansion Intensified 75x75x75mm at Center of Model}{75}{subsubsection.163}
-\contentsline {subsubsection}{\numberline {3.5.4.2}Expansion Intensified 100x100X100mm at Center of Model}{75}{subsubsection.169}
+\contentsline {subsubsection}{\numberline {3.5.4.1}Expansion Intensified $75 \times 75 \times 75$ mm at Center of Model}{75}{subsubsection.163}
+\contentsline {subsubsection}{\numberline {3.5.4.2}Expansion Intensified $100 \times 100 \times 100$ mm at Center of Model}{75}{subsubsection.169}
 \contentsline {section}{\numberline {3.6}Comparing Between ASR Expansion and DEF Expansion Simulation Result}{85}{section.176}
 \contentsline {chapter}{\numberline {4}Simulation of Residual Mechanical Capabilities Of ASR and DEF Expanded Concrete}{88}{chapter.181}
 \contentsline {section}{\numberline {4.1}General}{88}{section.182}

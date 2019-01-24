@@ -779,7 +779,7 @@ RBSM Sim-u-la-tion, L.EDDY
 ] [8]
 Overfull \hbox (14.56473pt too wide) in paragraph at lines 76--76
  [][] [][][]\OT1/cmr/m/n/10.95 3D Sur-face Cracks (Sin-gle Side View) Ex-pan-si
-on In-ten-si-fied 100x100X100mm 
+on In-ten-si-fied $100 \times 100 \times 100$ mm 
  []
 
 [9])
@@ -793,7 +793,7 @@ on In-ten-si-fied 100x100X100mm
 (./Thesis.lot
 Overfull \hbox (13.3493pt too wide) in paragraph at lines 20--20
  [][] [][][]\OT1/cmr/m/n/10.95 One Di-men-sional Ex-pan-sion Ra-tio in Ex-pan-s
-ion In-ten-si-fied 100x100X100mm 
+ion In-ten-si-fied $100 \times 100 \times 100$ mm 
  []
 
 )
@@ -2651,8 +2651,8 @@ Package pdftex.def Info: Files/DEF_X/X-1_3ds.png  used on input line 51.
 (pdftex.def)             Requested size: 123.98933pt x 58.18333pt.
 
 Overfull \hbox (22.6567pt too wide) in paragraph at lines 59--60
-\OT1/cmr/m/n/10.95 model in the di-men-sion of 100x100x100mm, with 30% ag-gre-g
-ate, of which cen-ter 50x50x50mm
+\OT1/cmr/m/n/10.95 model in the di-men-sion of $100 \times 100 \times 100$ mm, with 30% ag-gre-g
+ate, of which cen-ter $50 \times 50 \times 50$ mm
  []
 
 File: Files/DEF_X/X0_3d.png Graphic file (type png)
@@ -3320,7 +3320,7 @@ Package pdftex.def Info: Files/DEF_X/X0_3ds.png  used on input line 13.
 (pdftex.def)             Requested size: 110.21391pt x 62.22816pt.
 
 Underfull \hbox (badness 6188) in paragraph at lines 14--14
- []\OT1/cmr/m/sc/10 (a) |\OT1/cmr/m/n/10 In-ten-si-fied 50x50x50mm 
+ []\OT1/cmr/m/sc/10 (a) |\OT1/cmr/m/n/10 In-ten-si-fied $50 \times 50 \times 50$ mm 
  []
 
 File: Files/DEF_X/X-5_3ds.png Graphic file (type png)
@@ -3329,7 +3329,7 @@ Package pdftex.def Info: Files/DEF_X/X-5_3ds.png  used on input line 19.
 (pdftex.def)             Requested size: 110.21391pt x 58.1738pt.
 
 Underfull \hbox (badness 6658) in paragraph at lines 20--20
- []\OT1/cmr/m/sc/10 (b) |\OT1/cmr/m/n/10 In-ten-si-fied 75x75x75mm 
+ []\OT1/cmr/m/sc/10 (b) |\OT1/cmr/m/n/10 In-ten-si-fied $75 \times 75 \times 75$ mm 
  []
 
 File: Files/DEF_X/X-1_3ds.png Graphic file (type png)
@@ -4114,7 +4114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -4307,7 +4307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -4515,7 +4515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -4735,7 +4735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -4926,7 +4926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -5117,7 +5117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -5286,7 +5286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 9--9
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 
@@ -5493,7 +5493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Overfull \hbox (3.14215pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10.95 0.0001mm| 
+\OT1/cmr/m/n/10.95 0.0001 mm| 
  []
 
 

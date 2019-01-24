@@ -1,14 +1,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Fractured stirrups in ASR-affected bridge piers in Japan [Miyagawa, et al. 2006, Torii, et al. 2008].\relax }}{2}{figure.caption.20}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Premature cracking of sleepers in Indian Railways[A. Awasthi, 2016].\relax }}{2}{figure.caption.21}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Results of field measurement of temperature of sleepers during curing process in Indian Railways[A. Awasthi, 2016].\relax }}{3}{figure.caption.22}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Premature cracking of sleepers in Indian Railways[A. Awasthi, 2016\cite{Awasthi}].\relax }}{2}{figure.caption.21}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Results of field measurement of temperature of sleepers during curing process in Indian Railways[A. Awasthi, 2016\cite{Awasthi}].\relax }}{3}{figure.caption.22}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Elastic modulus and compressive strength results for ASR cylinders. [E.R.Giannini, 2012].\relax }}{4}{figure.caption.24}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Elastic modulus and compressive strength results for DEF cylinders. [E.R.Giannini, 2012].\relax }}{5}{figure.caption.25}
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Crack pattern of horizontally cast concrete prismcontaining Thames Valley sand (mix A) and 15\% fused silica (mix B) [Ahmed et al., 2003].\relax }}{5}{figure.caption.26}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Premature cracking of sleepers in Indian Railways[A. Awasthi, 2016].\relax }}{6}{figure.caption.28}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Temperature measurement for pre-heating process of Indian Concrete Sleeper [A. Awasthi, 2016].\relax }}{6}{figure.caption.29}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Premature cracking of sleepers in Indian Railways[A. Awasthi, 2016\cite{Awasthi}].\relax }}{6}{figure.caption.28}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Temperature measurement for pre-heating process of Indian Concrete Sleeper [A. Awasthi, 2016\cite{Awasthi}].\relax }}{6}{figure.caption.29}
 \contentsline {figure}{\numberline {1.9}{\ignorespaces 3D Concrete Model (units: mm) [L.EDDY et al.]\relax }}{7}{figure.caption.30}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Surface Cracks (Deformation x 10) [L.EDDY et al.]\relax }}{7}{figure.caption.31}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Surface Cracks ($Deformation \times 10$) [L.EDDY et al.]\relax }}{7}{figure.caption.31}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Rigid Body Spring Model\relax }}{11}{figure.caption.36}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Constitutive models of concrete\relax }}{16}{figure.caption.51}
@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Characteristic Map Cracking Pattern of ASR bu RBSM Simulation, L.EDDY et al. (2016)\relax }}{19}{figure.caption.57}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Result of Temperature Measurement, A.AWASTHI 2016\relax }}{20}{figure.caption.59}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Section View of DEF Damaged Concrete Sleeper, A.AWASTHI 2016\relax }}{21}{figure.caption.60}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 50x50x50mm DEF intensified part range\relax }}{21}{figure.caption.61}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces $50 \times 50 \times 50$ mm DEF intensified part range\relax }}{21}{figure.caption.61}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Numerical Model for Expanding Simulation\relax }}{22}{figure.caption.64}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Coarse Aggregate Percentage\relax }}{22}{figure.caption.66}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces 25\% and 75\% ASR Reactive Aggregate Ratio Model\relax }}{22}{figure.caption.68}
@@ -25,66 +25,66 @@
 \contentsline {figure}{\numberline {2.13}{\ignorespaces DEF intensified part range\relax }}{25}{figure.caption.81}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Top and Bottom Boundary in Loading\relax }}{26}{figure.caption.85}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Single Aggregate Case in Size 10x10x10mm (Deformation x 10)\relax }}{29}{figure.caption.91}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cross Section in Each Step for ASR 10x10x10mm Case (Deformation x 10)\relax }}{30}{figure.caption.92}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Internal Stress in Each Step for ASR 10x10x10mm Case (Deformation x 10)\relax }}{31}{figure.caption.93}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Single Aggregate Case in Size $10 \times 10 \times 10$ mm ($Deformation \times 10$)\relax }}{29}{figure.caption.91}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cross Section in Each Step for ASR $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)\relax }}{30}{figure.caption.92}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Internal Stress in Each Step for ASR $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)\relax }}{31}{figure.caption.93}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 30\% Coarse Aggregate\relax }}{32}{figure.caption.96}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Global Expansion vs. Step\relax }}{33}{figure.caption.98}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D Surface Cracks, 0.4223\% Expansion (Deformation x 10)\relax }}{34}{figure.caption.99}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Internal Stress in Each Step for A30 P75 Case 3 (Deformation x 10)\relax }}{35}{figure.caption.100}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 3D Inner Cracking larger than 0.03mm\relax }}{36}{figure.caption.101}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D Surface Cracks, 0.4223\% Expansion ($Deformation \times 10$)\relax }}{34}{figure.caption.99}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Internal Stress in Each Step for A30 P75 Case 3 ($Deformation \times 10$)\relax }}{35}{figure.caption.100}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 3D Inner Cracking larger than 0.03 mm\relax }}{36}{figure.caption.101}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces 30\% Coarse Aggregate\relax }}{37}{figure.caption.104}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 3D Surface Cracks (Deformation x 10)\relax }}{38}{figure.caption.106}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 3D Surface Cracks (Single Side View, Deformation x 10)\relax }}{39}{figure.caption.107}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Inner Crack Width Larger than 0.03mm\relax }}{40}{figure.caption.108}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Generation of Internal Stress and Inner Cracks for ASR Expansion to Step 20(Final Expansion Step, Deformation x 10)\relax }}{41}{figure.caption.109}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 3D Surface Cracks ($Deformation \times 10$)\relax }}{38}{figure.caption.106}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 3D Surface Cracks (Single Side View, $Deformation \times 10$)\relax }}{39}{figure.caption.107}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Inner Crack Width Larger than 0.03 mm\relax }}{40}{figure.caption.108}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Generation of Internal Stress and Inner Cracks for ASR Expansion to Step 20(Final Expansion Step, $Deformation \times 10$)\relax }}{41}{figure.caption.109}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Coarse Aggregate Percentage\relax }}{42}{figure.caption.111}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces 3D Surface Cracks (Deformation x 10)\relax }}{43}{figure.caption.113}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces 3D Surface Cracks (Single Side View, Deformation x 10)\relax }}{44}{figure.caption.114}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Comparing Between A15 and A30 3D Surface Cracks (Deformation x 10)\relax }}{45}{figure.caption.115}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces 3D Inner Crack Width Larger than 0.03mm\relax }}{46}{figure.caption.116}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Comparing Between A15 and A30 3D Surface Cracks (Deformation x 10)\relax }}{47}{figure.caption.118}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces 3D Surface Cracks ($Deformation \times 10$)\relax }}{43}{figure.caption.113}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 3D Surface Cracks (Single Side View, $Deformation \times 10$)\relax }}{44}{figure.caption.114}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Comparing Between A15 and A30 3D Surface Cracks ($Deformation \times 10$)\relax }}{45}{figure.caption.115}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces 3D Inner Crack Width Larger than 0.03 mm\relax }}{46}{figure.caption.116}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Comparing Between A15 and A30 3D Surface Cracks ($Deformation \times 10$)\relax }}{47}{figure.caption.118}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces 25\% and 75\% ASR Reactive Aggregate Ratio Model\relax }}{48}{figure.caption.120}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces 3D Surface Cracks (Deformation x 10)\relax }}{49}{figure.caption.122}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces 3D Surface Cracks (Single Side View, Deformation x 10)\relax }}{50}{figure.caption.123}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces 3D Surface Cracks ($Deformation \times 10$)\relax }}{49}{figure.caption.122}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces 3D Surface Cracks (Single Side View, $Deformation \times 10$)\relax }}{50}{figure.caption.123}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces 3D Inner Cracks\relax }}{51}{figure.caption.124}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Comparing Between A30P25 and A30P75 3D Surface Cracks (Deformation x 10)\relax }}{52}{figure.caption.125}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Comparing Between A30P25 and A30P75 3D Surface Cracks (Deformation x 10)\relax }}{52}{figure.caption.126}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Single Aggregate Case in Size 10x10x10mm (Deformation x 10)\relax }}{53}{figure.caption.130}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Internal Stress in Each Step for DEF 10x10x10mm Case (Deformation x 10)\relax }}{54}{figure.caption.131}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Internal Stress in Each Step for DEF 10x10x10mm Case (Deformation x 10)\relax }}{56}{figure.caption.132}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Comparing Between A30P25 and A30P75 3D Surface Cracks ($Deformation \times 10$)\relax }}{52}{figure.caption.125}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Comparing Between A30P25 and A30P75 3D Surface Cracks ($Deformation \times 10$)\relax }}{52}{figure.caption.126}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Single Aggregate Case in Size $10 \times 10 \times 10$ mm ($Deformation \times 10$)\relax }}{53}{figure.caption.130}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Internal Stress in Each Step for DEF $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)\relax }}{54}{figure.caption.131}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Internal Stress in Each Step for DEF $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)\relax }}{56}{figure.caption.132}
 \contentsline {figure}{\numberline {3.29}{\ignorespaces DEF intensified part range\relax }}{57}{figure.caption.135}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces 50x50x50mm DEF intensified part range\relax }}{58}{figure.caption.136}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces $50 \times 50 \times 50$ mm DEF intensified part range\relax }}{58}{figure.caption.136}
 \contentsline {figure}{\numberline {3.31}{\ignorespaces 30\% Coarse Aggregate\relax }}{58}{figure.caption.137}
 \contentsline {figure}{\numberline {3.32}{\ignorespaces Global Expansion vs. Step\relax }}{59}{figure.caption.139}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces 3D Surface Cracks, 0.4223\% Expansion (Deformation x 10)\relax }}{59}{figure.caption.140}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces 3D Surface Cracks, 0.4223\% Expansion ($Deformation \times 10$)\relax }}{59}{figure.caption.140}
 \contentsline {figure}{\numberline {3.34}{\ignorespaces 3D Inner Cracks, 0.4223\% Expansion\relax }}{60}{figure.caption.141}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Internal Stress in Each Step for A30 X0C Case 3 (Deformation x 10)\relax }}{61}{figure.caption.142}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Internal Stress in Each Step for A30 X0C Case 3 ($Deformation \times 10$)\relax }}{61}{figure.caption.142}
 \contentsline {figure}{\numberline {3.36}{\ignorespaces 30\% Coarse Aggregate\relax }}{62}{figure.caption.145}
 \contentsline {figure}{\numberline {3.37}{\ignorespaces Global Expansion vs. Step\relax }}{63}{figure.caption.147}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces 3D Surface Cracks (Deformation x 10)\relax }}{64}{figure.caption.148}
-\contentsline {figure}{\numberline {3.39}{\ignorespaces 3D Surface Cracks (Single Side View, Deformation x 10)\relax }}{65}{figure.caption.149}
-\contentsline {figure}{\numberline {3.40}{\ignorespaces 3D Inner Cracks Larger than 0.03mm\relax }}{66}{figure.caption.150}
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Generation of Internal Stress and Inner Cracks for DEF Expansion to Step 20(Final Expansion Step, Deformation x 10)\relax }}{67}{figure.caption.151}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces 3D Surface Cracks ($Deformation \times 10$)\relax }}{64}{figure.caption.148}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces 3D Surface Cracks (Single Side View, $Deformation \times 10$)\relax }}{65}{figure.caption.149}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces 3D Inner Cracks Larger than 0.03 mm\relax }}{66}{figure.caption.150}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Generation of Internal Stress and Inner Cracks for DEF Expansion to Step 20(Final Expansion Step, $Deformation \times 10$)\relax }}{67}{figure.caption.151}
 \contentsline {figure}{\numberline {3.42}{\ignorespaces Coarse Aggregate Percentage\relax }}{68}{figure.caption.153}
 \contentsline {figure}{\numberline {3.43}{\ignorespaces Global Expansion vs. Step\relax }}{69}{figure.caption.155}
 \contentsline {figure}{\numberline {3.44}{\ignorespaces 3D Surface Cracks\relax }}{70}{figure.caption.156}
 \contentsline {figure}{\numberline {3.45}{\ignorespaces 3D Surface Cracks (Single Side View)\relax }}{71}{figure.caption.157}
-\contentsline {figure}{\numberline {3.46}{\ignorespaces 3D Inner Cracks Larger than 0.03mm\relax }}{72}{figure.caption.158}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces 3D Inner Cracks Larger than 0.03 mm\relax }}{72}{figure.caption.158}
 \contentsline {figure}{\numberline {3.47}{\ignorespaces Comparing Between A15 and A30 3D Cracks\relax }}{73}{figure.caption.159}
 \contentsline {figure}{\numberline {3.48}{\ignorespaces DEF intensified part range\relax }}{75}{figure.caption.162}
 \contentsline {figure}{\numberline {3.49}{\ignorespaces Global Expansion vs. Step\relax }}{76}{figure.caption.165}
-\contentsline {figure}{\numberline {3.50}{\ignorespaces 3D Surface Cracks Expansion Intensified 75x75x75mm (Deformation x 10)\relax }}{77}{figure.caption.166}
-\contentsline {figure}{\numberline {3.51}{\ignorespaces 3D Surface Cracks (Single Side View) Expansion Intensified 75x75x75mm (Deformation x 10)\relax }}{78}{figure.caption.167}
-\contentsline {figure}{\numberline {3.52}{\ignorespaces 3D Inner Cracks Expansion Intensified 75x75x75mm\relax }}{79}{figure.caption.168}
+\contentsline {figure}{\numberline {3.50}{\ignorespaces 3D Surface Cracks Expansion Intensified $75 \times 75 \times 75$ mm ($Deformation \times 10$)\relax }}{77}{figure.caption.166}
+\contentsline {figure}{\numberline {3.51}{\ignorespaces 3D Surface Cracks (Single Side View) Expansion Intensified $75 \times 75 \times 75$ mm ($Deformation \times 10$)\relax }}{78}{figure.caption.167}
+\contentsline {figure}{\numberline {3.52}{\ignorespaces 3D Inner Cracks Expansion Intensified $75 \times 75 \times 75$ mm\relax }}{79}{figure.caption.168}
 \contentsline {figure}{\numberline {3.53}{\ignorespaces Global Expansion vs. Step\relax }}{80}{figure.caption.171}
-\contentsline {figure}{\numberline {3.54}{\ignorespaces 3D Surface Cracks Expansion Intensified 100x100X100mm (Deformation x 10)\relax }}{81}{figure.caption.172}
-\contentsline {figure}{\numberline {3.55}{\ignorespaces 3D Surface Cracks (Single Side View) Expansion Intensified 100x100X100mm (Deformation x 10)\relax }}{82}{figure.caption.173}
-\contentsline {figure}{\numberline {3.56}{\ignorespaces 3D Inner Cracks Expansion Intensified 100x100X100mm (Deformation x 10)\relax }}{83}{figure.caption.174}
+\contentsline {figure}{\numberline {3.54}{\ignorespaces 3D Surface Cracks Expansion Intensified $100 \times 100 \times 100$ mm ($Deformation \times 10$)\relax }}{81}{figure.caption.172}
+\contentsline {figure}{\numberline {3.55}{\ignorespaces 3D Surface Cracks (Single Side View) Expansion Intensified $100 \times 100 \times 100$ mm ($Deformation \times 10$)\relax }}{82}{figure.caption.173}
+\contentsline {figure}{\numberline {3.56}{\ignorespaces 3D Inner Cracks Expansion Intensified $100 \times 100 \times 100$ mm ($Deformation \times 10$)\relax }}{83}{figure.caption.174}
 \contentsline {figure}{\numberline {3.57}{\ignorespaces Comparing between different DEF Expansion Intensified Cases\relax }}{84}{figure.caption.175}
 \contentsline {figure}{\numberline {3.58}{\ignorespaces Model for DEF Expansion\relax }}{85}{figure.caption.177}
 \contentsline {figure}{\numberline {3.59}{\ignorespaces Cracks Compare Between ASR Expansion and DEF Expansion Simulation Result\relax }}{86}{figure.caption.178}
-\contentsline {figure}{\numberline {3.60}{\ignorespaces Cross Section Compare Between ASR Expansion and DEF Expansion Simulation Result (Deformation x 10)\relax }}{87}{figure.caption.179}
+\contentsline {figure}{\numberline {3.60}{\ignorespaces Cross Section Compare Between ASR Expansion and DEF Expansion Simulation Result ($Deformation \times 10$)\relax }}{87}{figure.caption.179}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 30\% Coarse Aggregate\relax }}{88}{figure.caption.183}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces ASR Loading\relax }}{89}{figure.caption.184}
@@ -101,7 +101,7 @@
 \contentsline {figure}{\numberline {4.13}{\ignorespaces A15 I50 Fix Load-Displacement\relax }}{96}{figure.caption.200}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces A15 I50 Fix Load-Displacement\relax }}{96}{figure.caption.201}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Residual Compressive Strength vs. Total Number of Cracks\relax }}{97}{figure.caption.203}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Residual Compressive Strength vs. Total Number of Cracks over 0.0005mm\relax }}{98}{figure.caption.204}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Residual Compressive Strength vs. Total Number of Cracks over 0.0005 mm\relax }}{98}{figure.caption.204}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Cracking Pattern Compare\relax }}{99}{figure.caption.205}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

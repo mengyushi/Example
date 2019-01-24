@@ -3,14 +3,15 @@
 
 \subsection{DEF Expansion Simulation of Single Aggregate Case}
 
-In this section, similar as in ASR cases, simulation of DEF expansion on 10x10x10mm size model with only single aggregate in center of it is presented. As for the scale we considered here is relatively small, uniformed expansion is applied. 0.0003 initial strain is given to all paste interfaces uniformly in this simulation.
+In this section, similar as in ASR cases, simulation of DEF expansion on $10 \times 10 \times 10$ mm size model(Figure \ref{mmmm}) with only single aggregate in center of it is presented. As for the scale we considered here is relatively small, uniformed expansion is applied. 0.0003 initial strain is given to all paste interfaces uniformly in this simulation.
 
 \begin{figure}[h!]
 \centering
 
 \includegraphics[width=0.4\linewidth]{Files/Small_ASR/CR/DEP5-STEP(001).png}
 %*******
-\caption{Single Aggregate Case in Size 10x10x10mm (Deformation x 10)}
+\caption{Single Aggregate Case in Size $10 \times 10 \times 10$ mm}
+\label{mmmm}
 \end{figure}
 
 
@@ -154,7 +155,7 @@ As the model is small in size, and it is a representation of the expansion in pa
       \caption{Step 20}
       \end{subfigure}
 
-  \caption{Internal Stress in Each Step for DEF 10x10x10mm Case (Deformation x 10)}
+  \caption{Internal Stress in Each Step for DEF $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)}
   \label{fig:DEF_Small_DEF_CR}
   \end{figure}
 
@@ -300,12 +301,12 @@ The total volume of this small model is increasing step by step, while until the
 
       \input{Chapters/tagCS10s}
 
-  \caption{Internal Stress in Each Step for DEF 10x10x10mm Case (Deformation x 10)}
+  \caption{Internal Stress in Each Step for DEF $10 \times 10 \times 10$ mm Case ($Deformation \times 10$)}
   \label{fig:DEF_Small_DEF_IS}
   \end{figure}
 
 Also, the Inner Stress condition for each step is collected, and shown in Figure \ref{fig:DEF_Small_DEF_IS}.
 
-As shown in the inner stress condition, at eh beginning of the expansion, the aggregate is under tensile stress and paste parts surrounding is under compression. Since the initial strain is given to the paste, with the increasing of initial strain by each step, the compressive stress accumulates in the paste part. While for the aggregate, after gap developed between aggregate and paste around it, the aggregate is not suffering from tension or compression.
+As shown in the inner stress condition, at the beginning of the expansion, the aggregate is under tensile stress and paste parts surrounding is under compression. Since the initial strain is given to the paste, with the increasing of initial strain by each step, the compressive stress accumulates in the paste part. While for the aggregate, after gap developed between aggregate and paste around it, the aggregate is not suffering from tension or compression.
 
 This very small size simple example shows that, same as ASR case, logically our method of adding initial strain to generate DEF expansion should work in the way we assumed.
